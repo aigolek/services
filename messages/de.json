@@ -18,15 +18,15 @@
     "subtitle": "Professionelle Übersetzungen und Beratung — verlässliche Lösungen für Umzug und Aufenthalt in der Türkei.",
     "ctaPrimary": "Kontaktieren Sie uns",
     "ctaSecondary": "Übersetzung anfragen",
-    "countries": ["Lettland", "Litauen", "Estland", "Frankreich", "Deutschland", "Russland", "Ukraine"]
+    "countries": ["Deutschland", "Russland", "Ukraine", "Frankreich", "Litauen", "Marokko", "Iran", "Irak", "Ungarn", "Mexiko", "Belarus", "Kasachstan", "Kirgistan", "Usbekistan", "Lettland", "Estland"]
   },
   "about": {
     "label": "Über uns",
     "title": "Ein Beratungspartner, dem Kunden aus aller Welt vertrauen",
-    "paragraph1": "Global Consulting Group arbeitet mit Kunden aus Lettland, Litauen, Estland, Frankreich, Deutschland, Russland, der Ukraine und weiteren Ländern. Wir unterstützen alle, die in der Türkei leben, arbeiten oder investieren möchten — von der Dokumentenübersetzung bis zur vollständigen Begleitung bei Aufenthaltstitel und Staatsbürgerschaft.",
+    "paragraph1": "Global Consulting Group arbeitet mit Kunden aus Deutschland, Russland, der Ukraine, Frankreich und vielen weiteren Ländern — vom Baltikum bis nach Zentralasien und in den Nahen Osten. Wir unterstützen alle, die in der Türkei leben, arbeiten oder investieren möchten — von der Dokumentenübersetzung bis zur vollständigen Begleitung bei Aufenthaltstitel und Staatsbürgerschaft.",
     "paragraph2": "Behördengänge im Ausland sind immer mit Stress, Fehlerrisiko und Zeitverlust verbunden. Wir übernehmen sämtliche Formalitäten für Sie, garantieren volle Transparenz und ein offizielles Ergebnis — ohne komplizierten Juristenjargon.",
     "stats": [
-      { "value": "7+", "label": "Länder, aus denen unsere Kunden kommen" },
+      { "value": "16+", "label": "Länder, aus denen unsere Kunden kommen" },
       { "value": "1000+", "label": "abgeschlossene Fälle" },
       { "value": "100%", "label": "Vertraulichkeit und Zuverlässigkeit" }
     ],
@@ -72,6 +72,7 @@
     "checklist": [
       { "text": "Übersetzung von Dokumenten in alle Sprachen der Welt" },
       { "text": "Beantragung von Staatsbürgerschaft und Aufenthaltstitel" },
+      { "text": "Konsularische Dienstleistungen" },
       { "text": "Zusammenstellung und Vorbereitung des vollständigen Dokumentenpakets" },
       { "text": "Arbeitserlaubnis" },
       {
@@ -128,7 +129,11 @@
     "emailLabel": "E-Mail",
     "addressLabel": "Adresse",
     "addressValue": "Manavgat, Antalya, Türkei",
-    "quickLabel": "Schnellkontakt"
+    "quickLabel": "Schnellkontakt",
+    "reviewsTitle": "Bewertungen auf Google Maps",
+    "reviewsManavgat": "Manavgat — Global Tercüme",
+    "reviewsAntalya": "Antalya / Manavgat — Duru Tercüme",
+    "viewOnGoogle": "Bewertungen ansehen"
   },
   "footer": {
     "rights": "© {year} Global Consulting Group. Alle Rechte vorbehalten."

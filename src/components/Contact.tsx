@@ -1,6 +1,16 @@
-import { Mail, MapPin, MessageCircle, Phone, Send } from "lucide-react";
+import { ExternalLink, Mail, MapPin, MessageCircle, Phone, Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Reveal from "./Reveal";
+
+function InstagramIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+    </svg>
+  );
+}
 
 export default function Contact() {
   const t = useTranslations("contact");
@@ -76,15 +86,68 @@ export default function Contact() {
                   WhatsApp
                 </a>
                 <a
-                  href="https://t.me/"
+                  href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-gold/60 px-4 py-2.5 text-sm font-semibold text-gold transition-colors hover:bg-gold/10"
                 >
-                  <Send size={16} />
-                  Telegram
+                  <InstagramIcon />
+                  Instagram
                 </a>
               </div>
+            </div>
+          </Reveal>
+        </div>
+
+        <div className="mt-6 grid gap-6 lg:grid-cols-[1.3fr_0.7fr]">
+          <Reveal delay={0.1}>
+            <div className="h-80 overflow-hidden rounded-2xl border border-white/10 lg:h-full">
+              <iframe
+                title="Global Consulting Group — Manavgat"
+                src="https://www.google.com/maps?q=36.7861343,31.4471349&z=16&output=embed"
+                className="h-full w-full grayscale-[20%]"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.18}>
+            <div className="flex h-full flex-col gap-4 rounded-2xl border border-white/10 bg-white/[0.03] p-7">
+              <p className="text-sm text-white/70">{t("reviewsTitle")}</p>
+              <div className="flex flex-col gap-3">
+                <a
+                  href="https://www.google.com/maps/place/MANAVGAT+GLOBAL+TERC%C3%9CME/@36.7861385,31.442264,17z/data=!4m8!3m7!1s0x14c3575de130dd09:0xafab967b91cd49ff!8m2!3d36.7861343!4d31.4471349!9m1!1b1!16s%2Fg%2F11zkwz15_8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-between gap-3 rounded-xl border border-white/10 px-4 py-3 transition-colors hover:border-gold/40"
+                >
+                  <span className="flex items-center gap-2 text-sm text-white">
+                    <Star size={16} className="text-gold" />
+                    {t("reviewsManavgat")}
+                  </span>
+                  <ExternalLink
+                    size={14}
+                    className="shrink-0 text-white/40 transition-colors group-hover:text-gold"
+                  />
+                </a>
+                <a
+                  href="https://www.google.com/maps/place/ANTALYA%2FMANAVGAT+DURU+TERC%C3%9CME+OF%C4%B0S%C4%B0%2F+YEM%C4%B0NL%C4%B0+TERC%C3%9CMAN/@36.7866085,31.4328431,17z/data=!3m1!4b1!4m6!3m5!1s0x14c357ad85aad53d:0x9ccd1a48f810e62c!8m2!3d36.7866042!4d31.435418!16s%2Fg%2F11lts41qg7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-between gap-3 rounded-xl border border-white/10 px-4 py-3 transition-colors hover:border-gold/40"
+                >
+                  <span className="flex items-center gap-2 text-sm text-white">
+                    <Star size={16} className="text-gold" />
+                    {t("reviewsAntalya")}
+                  </span>
+                  <ExternalLink
+                    size={14}
+                    className="shrink-0 text-white/40 transition-colors group-hover:text-gold"
+                  />
+                </a>
+              </div>
+              <p className="mt-auto text-xs text-white/40">{t("viewOnGoogle")} →</p>
             </div>
           </Reveal>
         </div>

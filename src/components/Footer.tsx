@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 function InstagramIcon() {
   return (
@@ -25,9 +26,13 @@ export default function Footer() {
     <footer className="border-t border-white/10 bg-navy py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 text-center sm:flex-row sm:justify-between sm:text-left">
         <a href="#hero" className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-full border border-gold text-gold font-serif text-sm font-semibold">
-            G
-          </span>
+          <Image
+            src="/logo-icon.png"
+            alt="Global Consulting Group"
+            width={334}
+            height={312}
+            className="h-8 w-auto"
+          />
           <span className="text-sm font-semibold tracking-wide text-white">
             GLOBAL <span className="text-gold">CONSULTING</span> GROUP
           </span>

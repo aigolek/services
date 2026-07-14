@@ -18,15 +18,15 @@
     "subtitle": "Professional Translation and Consulting — reliable solutions for relocating and settling in Turkey.",
     "ctaPrimary": "Get in Touch",
     "ctaSecondary": "Request a Translation",
-    "countries": ["Latvia", "Lithuania", "Estonia", "France", "Germany", "Russia", "Ukraine"]
+    "countries": ["Germany", "Russia", "Ukraine", "France", "Lithuania", "Morocco", "Iran", "Iraq", "Hungary", "Mexico", "Belarus", "Kazakhstan", "Kyrgyzstan", "Uzbekistan", "Latvia", "Estonia"]
   },
   "about": {
     "label": "About Us",
     "title": "A consulting partner trusted by clients around the world",
-    "paragraph1": "Global Consulting Group works with clients from Latvia, Lithuania, Estonia, France, Germany, Russia, Ukraine and beyond. We support anyone planning to live, work or invest in Turkey — from document translation to full residence permit and citizenship support.",
+    "paragraph1": "Global Consulting Group works with clients from Germany, Russia, Ukraine, France and many other countries — from the Baltics to Central Asia and the Middle East. We support anyone planning to live, work or invest in Turkey — from document translation to full residence permit and citizenship support.",
     "paragraph2": "Handling paperwork in a foreign country is always stressful, carries the risk of costly mistakes, and takes time. We take all the formalities on ourselves, guaranteeing full transparency and an official result — without complicated legal jargon.",
     "stats": [
-      { "value": "7+", "label": "countries our clients come from" },
+      { "value": "16+", "label": "countries our clients come from" },
       { "value": "1000+", "label": "cases completed" },
       { "value": "100%", "label": "confidentiality and reliability" }
     ],
@@ -72,6 +72,7 @@
     "checklist": [
       { "text": "Document translation into every language in the world" },
       { "text": "Citizenship and residence permit processing" },
+      { "text": "Consular services" },
       { "text": "Collecting and preparing a complete document package" },
       { "text": "Work permits" },
       {
@@ -128,7 +129,11 @@
     "emailLabel": "Email",
     "addressLabel": "Address",
     "addressValue": "Manavgat, Antalya, Turkey",
-    "quickLabel": "Quick contact"
+    "quickLabel": "Quick contact",
+    "reviewsTitle": "Reviews on Google Maps",
+    "reviewsManavgat": "Manavgat — Global Tercüme",
+    "reviewsAntalya": "Antalya / Manavgat — Duru Tercüme",
+    "viewOnGoogle": "View Reviews"
   },
   "footer": {
     "rights": "© {year} Global Consulting Group. All rights reserved."

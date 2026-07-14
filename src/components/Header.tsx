@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { Menu, Phone, X } from "lucide-react";
 import LanguageSwitcher from "./LanguageSwitcher";
 
@@ -34,10 +35,15 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto max-w-6xl px-6 flex items-center justify-between h-18 py-4">
-        <a href="#hero" className="flex shrink-0 items-center gap-2 group">
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold text-gold font-serif text-lg font-semibold transition-transform group-hover:scale-105">
-            G
-          </span>
+        <a href="#hero" className="flex shrink-0 items-center gap-2.5 group">
+          <Image
+            src="/logo-icon.png"
+            alt="Global Consulting Group"
+            width={334}
+            height={312}
+            className="h-9 w-auto shrink-0 transition-transform group-hover:scale-105"
+            priority
+          />
           <span className="whitespace-nowrap text-white font-semibold tracking-wide text-sm sm:text-base">
             GLOBAL <span className="text-gold">CONSULTING</span> GROUP
           </span>

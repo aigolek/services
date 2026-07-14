@@ -18,12 +18,12 @@
     "subtitle": "Profesyonel Tercüme ve Danışmanlık — Türkiye'de yerleşim ve yasal süreçler için güvenilir çözümler.",
     "ctaPrimary": "Bizimle İletişime Geçin",
     "ctaSecondary": "Tercüme Talep Et",
-    "countries": ["Letonya", "Litvanya", "Estonya", "Fransa", "Almanya", "Rusya", "Ukrayna"]
+    "countries": ["Almanya", "Rusya", "Ukrayna", "Fransa", "Litvanya", "Fas", "İran", "Irak", "Macaristan", "Meksika", "Belarus", "Kazakistan", "Kırgızistan", "Özbekistan", "Letonya", "Estonya"]
   },
   "about": {
     "label": "Hakkımızda",
     "title": "Dünyanın dört bir yanından müşterilerin güvendiği bir danışmanlık ortağı",
-    "paragraph1": "Global Consulting Group olarak Letonya, Litvanya, Estonya, Fransa, Almanya, Rusya, Ukrayna ve daha birçok ülkeden müşterilerle çalışıyoruz. Türkiye'de yaşamayı, çalışmayı ya da yatırım yapmayı planlayan müşterilerimize; belge tercümesinden ikamet ve vatandaşlık süreçlerinin tam sonuçlandırılmasına kadar destek sunuyoruz.",
+    "paragraph1": "Global Consulting Group olarak Almanya, Rusya, Ukrayna, Fransa ve Baltık ülkelerinden Orta Asya ile Orta Doğu'ya uzanan birçok ülkeden müşterilerle çalışıyoruz. Türkiye'de yaşamayı, çalışmayı ya da yatırım yapmayı planlayan müşterilerimize; belge tercümesinden ikamet ve vatandaşlık süreçlerinin tam sonuçlandırılmasına kadar destek sunuyoruz.",
     "paragraph2": "Yabancı bir ülkede belge işlemleri her zaman stresli, hata riski taşıyan ve zaman kaybettiren bir süreçtir. Tüm formaliteleri biz üstleniyoruz; sürecin her adımında tam şeffaflık ve resmî sonuç garanti ediyoruz — karmaşık hukuki terimler olmadan.",
     "stats": [
       { "value": "7+", "label": "ülkeden müşteri deneyimi" },
@@ -72,6 +72,7 @@
     "checklist": [
       { "text": "Belgelerin dünyanın her diline tercümesi" },
       { "text": "Vatandaşlık ve ikamet izni işlemleri" },
+      { "text": "Konsolosluk hizmetleri" },
       { "text": "Eksiksiz belge paketinin toplanması ve hazırlanması" },
       { "text": "Çalışma izni" },
       {
@@ -128,7 +129,11 @@
     "emailLabel": "E-posta",
     "addressLabel": "Adres",
     "addressValue": "Manavgat, Antalya, Türkiye",
-    "quickLabel": "Hızlı iletişim"
+    "quickLabel": "Hızlı iletişim",
+    "reviewsTitle": "Google Maps Yorumları",
+    "reviewsManavgat": "Manavgat — Global Tercüme",
+    "reviewsAntalya": "Antalya / Manavgat — Duru Tercüme",
+    "viewOnGoogle": "Yorumları Görüntüle"
   },
   "footer": {
     "rights": "© {year} Global Consulting Group. Tüm hakları saklıdır."
