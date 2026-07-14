@@ -1,18 +1,22 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 import { Menu, Phone, X } from "lucide-react";
-
-const NAV_LINKS = [
-  { href: "#hakkimizda", label: "Hakkımızda" },
-  { href: "#hizmetler", label: "Hizmetler" },
-  { href: "#yorumlar", label: "Yorumlar" },
-  { href: "#iletisim", label: "İletişim" },
-];
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Header() {
+  const t = useTranslations("nav");
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+
+  const NAV_LINKS = [
+    { href: "#about", label: t("about") },
+    { href: "#translation", label: t("translation") },
+    { href: "#services", label: t("services") },
+    { href: "#testimonials", label: t("testimonials") },
+    { href: "#contact", label: t("contact") },
+  ];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -30,54 +34,51 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto max-w-6xl px-6 flex items-center justify-between h-18 py-4">
-        <a href="#" className="flex items-center gap-2 group">
-          <span className="flex h-9 w-9 items-center justify-center rounded-full border border-gold text-gold font-serif text-lg font-semibold transition-transform group-hover:scale-105">
+        <a href="#hero" className="flex shrink-0 items-center gap-2 group">
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold text-gold font-serif text-lg font-semibold transition-transform group-hover:scale-105">
             G
           </span>
-          <span className="text-white font-semibold tracking-wide text-sm sm:text-base">
+          <span className="whitespace-nowrap text-white font-semibold tracking-wide text-sm sm:text-base">
             GLOBAL <span className="text-gold">CONSULTING</span> GROUP
           </span>
         </a>
 
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden xl:flex items-center gap-5">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-white/80 hover:text-gold transition-colors"
+              className="whitespace-nowrap text-sm font-medium text-white/80 hover:text-gold transition-colors"
             >
               {link.label}
             </a>
           ))}
         </nav>
 
-        <div className="hidden md:flex items-center gap-4">
+        <div className="hidden xl:flex items-center gap-4">
+          <LanguageSwitcher dark />
           <a
-            href="tel:+905387442235"
-            className="flex items-center gap-2 text-sm font-medium text-white/90 hover:text-gold transition-colors"
+            href="#contact"
+            className="whitespace-nowrap rounded-full bg-gold px-5 py-2 text-sm font-semibold text-navy transition-all hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20"
           >
-            <Phone size={16} className="text-gold" />
-            +90 538 744 22 35
-          </a>
-          <a
-            href="#iletisim"
-            className="rounded-full bg-gold px-5 py-2 text-sm font-semibold text-navy transition-all hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20"
-          >
-            İletişime Geçin
+            {t("ctaButton")}
           </a>
         </div>
 
-        <button
-          className="md:hidden text-white"
-          onClick={() => setOpen((v) => !v)}
-          aria-label="Menüyü aç/kapat"
-        >
-          {open ? <X size={26} /> : <Menu size={26} />}
-        </button>
+        <div className="flex items-center gap-3 xl:hidden">
+          <LanguageSwitcher dark />
+          <button
+            className="text-white"
+            onClick={() => setOpen((v) => !v)}
+            aria-label="Menu"
+          >
+            {open ? <X size={26} /> : <Menu size={26} />}
+          </button>
+        </div>
       </div>
 
       {open && (
-        <div className="md:hidden bg-navy/98 backdrop-blur border-t border-white/10 px-6 py-6 flex flex-col gap-5">
+        <div className="xl:hidden bg-navy/98 backdrop-blur border-t border-white/10 px-6 py-6 flex flex-col gap-5">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}
@@ -96,11 +97,11 @@ export default function Header() {
             +90 538 744 22 35
           </a>
           <a
-            href="#iletisim"
+            href="#contact"
             onClick={() => setOpen(false)}
             className="rounded-full bg-gold px-5 py-3 text-center text-sm font-semibold text-navy"
           >
-            İletişime Geçin
+            {t("ctaButton")}
           </a>
         </div>
       )}

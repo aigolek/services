@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Global Consulting Group | Tercüme ve Danışmanlık",
+    "description": "Global Consulting Group — Antalya merkezli profesyonel tercüme, noter işlemleri ve ikamet/göç danışmanlığı hizmetleri."
+  },
+  "nav": {
+    "about": "Hakkımızda",
+    "translation": "Tercüme",
+    "services": "Hizmetler",
+    "testimonials": "Yorumlar",
+    "contact": "İletişim",
+    "ctaButton": "İletişime Geçin",
+    "changeLanguage": "Dili değiştir"
+  },
+  "hero": {
+    "badge": "Antalya · Türkiye",
+    "title": "Global Consulting Group",
+    "subtitle": "Profesyonel Tercüme ve Danışmanlık — Türkiye'de yerleşim ve yasal süreçler için güvenilir çözümler.",
+    "ctaPrimary": "Bizimle İletişime Geçin",
+    "ctaSecondary": "Tercüme Talep Et",
+    "countries": ["Letonya", "Litvanya", "Estonya", "Fransa", "Almanya", "Rusya", "Ukrayna"]
+  },
+  "about": {
+    "label": "Hakkımızda",
+    "title": "Dünyanın dört bir yanından müşterilerin güvendiği bir danışmanlık ortağı",
+    "paragraph1": "Global Consulting Group olarak Letonya, Litvanya, Estonya, Fransa, Almanya, Rusya, Ukrayna ve daha birçok ülkeden müşterilerle çalışıyoruz. Türkiye'de yaşamayı, çalışmayı ya da yatırım yapmayı planlayan müşterilerimize; belge tercümesinden ikamet ve vatandaşlık süreçlerinin tam sonuçlandırılmasına kadar destek sunuyoruz.",
+    "paragraph2": "Yabancı bir ülkede belge işlemleri her zaman stresli, hata riski taşıyan ve zaman kaybettiren bir süreçtir. Tüm formaliteleri biz üstleniyoruz; sürecin her adımında tam şeffaflık ve resmî sonuç garanti ediyoruz — karmaşık hukuki terimler olmadan.",
+    "stats": [
+      { "value": "7+", "label": "ülkeden müşteri deneyimi" },
+      { "value": "1000+", "label": "tamamlanan işlem" },
+      { "value": "%100", "label": "gizlilik ve güvenilirlik" }
+    ],
+    "quote": "Farklı ülkelerden gelen müşterilerimize aynı özen ve güvenle hizmet veriyoruz.",
+    "quoteOrg": "GLOBAL CONSULTING GROUP",
+    "quoteLocation": "Manavgat, Antalya"
+  },
+  "translation": {
+    "label": "Tercüme",
+    "title": "Her seviyede profesyonel tercüme — dünyanın tüm dillerine",
+    "intro": "Önemli belgelerinizin doğru bir tercümesine, büyük ölçekli bir IT projesinin lokalizasyonuna ya da acil bir kişisel yazışma tercümesine mi ihtiyacınız var? Doğru yerdesiniz. Ekibimiz uzman tercümanları, editörleri ve anadili konuşanları bir araya getirerek en kısa sürede kusursuz kalite garanti eder.",
+    "whatWeTranslateTitle": "Neleri tercüme ediyoruz?",
+    "categories": [
+      { "title": "Hukuki tercüme", "description": "Sözleşmeler, anlaşmalar, kuruluş belgeleri, vekaletnameler, dava dilekçeleri." },
+      { "title": "Teknik tercüme", "description": "Ekipman kılavuzları, teknik çizimler, şartnameler, bilimsel araştırma raporları." },
+      { "title": "Tıbbi tercüme", "description": "Doktor raporları, tahlil sonuçları, ilaç ve tıbbi cihaz dokümantasyonu." },
+      { "title": "İş ve pazarlama", "description": "Sunumlar, ticari teklifler, reklam materyalleri, mali raporlar." },
+      { "title": "IT ve lokalizasyon", "description": "Web sitelerinin, mobil uygulamaların, yazılım ve oyun arayüzlerinin tercüme ve uyarlanması." },
+      { "title": "Kişisel belgeler", "description": "Pasaportlar, diplomalar, sertifikalar — noter tasdikli seçenekle." }
+    ],
+    "whyUsTitle": "Neden bizi seçmelisiniz?",
+    "whyUs": [
+      { "title": "Her düzeyde karmaşıklık", "description": "Yoğun teknik terminoloji içeren özel metinleri üstleniyor ve kusursuz hale getiriyoruz." },
+      { "title": "Dünyanın tüm dilleri", "description": "En yaygın dillerden (İngilizce, Almanca, İspanyolca) nadir yerel lehçelere kadar." },
+      { "title": "Sıkı kalite kontrolü", "description": "Her tercüme, alan uzmanı bir çevirmen ve son okuyucu editör tarafından iki aşamalı kontrolden geçer." },
+      { "title": "Gizlilik", "description": "Kişisel verileriniz ve ticari sırlarınız güvence altında — gizlilik sözleşmesine (NDA) sıkı sıkıya bağlıyız." }
+    ],
+    "howWeWorkTitle": "Nasıl çalışıyoruz?",
+    "steps": [
+      { "title": "Talep", "description": "Bize dosyanızı ya da site bağlantınızı gönderirsiniz." },
+      { "title": "Değerlendirme", "description": "Ücretsiz olarak fiyat ve teslim süresini hesaplarız." },
+      { "title": "Tercüme", "description": "Alanında uzman çevirmen metninizi tüm dil inceliklerini gözeterek çevirir." },
+      { "title": "Redaksiyon", "description": "Terim doğruluğunu, üslubu ve biçimlendirmeyi kontrol ederiz." },
+      { "title": "Teslim", "description": "İhtiyacınız olan formatta kusursuz tercümenizi teslim alırsınız." }
+    ],
+    "ctaText": "Fiyat teklifi mi istiyorsunuz? Metninizi hemen gönderin, 15 dakika içinde sizinle iletişime geçelim!",
+    "ctaButton": "Tercümeye Gönder"
+  },
+  "services": {
+    "label": "Hizmetler",
+    "title": "İkamet izninden vatandaşlığa",
+    "subtitle": "Stressiz taşınma ve yasallaştırma: tüm sorumluluğu Global Consulting üstlenir.",
+    "checklist": [
+      { "text": "Belgelerin dünyanın her diline tercümesi" },
+      { "text": "Vatandaşlık ve ikamet izni işlemleri" },
+      { "text": "Eksiksiz belge paketinin toplanması ve hazırlanması" },
+      { "text": "Çalışma izni" },
+      {
+        "text": "Farklı kategorilerde vizeler",
+        "children": ["Çalışma vizesi", "Öğrenci vizesi", "Aile vizesi", "Digital Nomad (dijital göçebe)", "Schengen vizeleri", "Diğer vize türleri"]
+      },
+      { "text": "Sağlık sigortası" },
+      { "text": "Hukuki hizmetler ve danışmanlık" },
+      { "text": "Gayrimenkul danışmanlığı" }
+    ],
+    "detailIntro": "Yabancı bir ülkede belge işlemleri her zaman stresli, hata riski taşıyan ve zaman kaybettiren bir süreçtir. Global Consulting ekibi sizi bürokrasiden korur: tüm formaliteleri üstleniyor ve her adımda tam şeffaflık sağlıyoruz.",
+    "categories": [
+      {
+        "title": "İkamet izni ve yasal statü",
+        "items": [
+          { "title": "Başvuru ve uzatma", "description": "Öğrenci ve dijital göçebeler için popüler ikamet izni dahil, uzaktan ve yüz yüze başvuru." },
+          { "title": "Karmaşık vakalar", "description": "Profesyonel danışmanlık ve ikamet izni reddi durumunda destek." },
+          { "title": "Sorun çözümü", "description": "Vize ihlali statüsünden yasal çıkış." }
+        ]
+      },
+      {
+        "title": "Vatandaşlık ve belge işlemleri",
+        "items": [
+          { "title": "Anahtar teslim vatandaşlık", "description": "Yeni pasaportunuza giden yolda tam destek." },
+          { "title": "Yasallaştırma ve apostil", "description": "Rusya'dan gelen belgelerin Türkiye'de sorunsuz kullanımı için hazırlanması." },
+          { "title": "Yeminli tercümeler", "description": "Her düzeyde resmî yeminli tercüme." }
+        ]
+      },
+      {
+        "title": "Ek destek ve koruma",
+        "items": [
+          { "title": "İş ve istihdam", "description": "Resmî çalışma izinlerinin hızlı şekilde düzenlenmesi." },
+          { "title": "Güvence", "description": "Yabancılar için güvenilir sağlık sigortası seçimi." },
+          { "title": "Hukuki koruma", "description": "Profesyonel destek ve alanında uzman avukat temini." },
+          { "title": "Yaşamsal konular", "description": "Eğitim ve nüfus kaydı konularında danışmanlık." }
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Müşteri Yorumları",
+    "title": "Bize güvenen müşterilerimiz ne diyor?",
+    "items": [
+      { "quote": "İkamet başvurum boyunca her adımda bilgilendirildim. Belgelerim eksiksiz ve zamanında hazırlandı. Kesinlikle tavsiye ederim.", "name": "Elena K.", "origin": "Letonya 🇱🇻" },
+      { "quote": "Noter tasdikli tercüme ihtiyacımızı çok hızlı ve profesyonel şekilde çözdüler. İletişim her zaman net ve samimiydi.", "name": "Marc D.", "origin": "Fransa 🇫🇷" },
+      { "quote": "Türkiye'de yeni bir hayat kurarken en çok güvendiğimiz ekip oldular. Teşekkürler Global Consulting Group!", "name": "Olena P.", "origin": "Ukrayna 🇺🇦" }
+    ]
+  },
+  "contact": {
+    "label": "İletişim",
+    "title": "Sorularınız için bize ulaşın",
+    "subtitle": "Ekibimiz, tercüme ve danışmanlık ihtiyaçlarınız için en kısa sürede size dönüş yapacaktır.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-posta",
+    "addressLabel": "Adres",
+    "addressValue": "Manavgat, Antalya, Türkiye",
+    "quickLabel": "Hızlı iletişim"
+  },
+  "footer": {
+    "rights": "© {year} Global Consulting Group. Tüm hakları saklıdır."
+  }
+}

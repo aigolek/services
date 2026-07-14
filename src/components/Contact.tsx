@@ -1,21 +1,21 @@
 import { Mail, MapPin, MessageCircle, Phone, Send } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Reveal from "./Reveal";
 
 export default function Contact() {
+  const t = useTranslations("contact");
+
   return (
-    <section id="iletisim" className="bg-navy py-24 sm:py-32">
+    <section id="contact" className="bg-navy py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
-            İletişim
+            {t("label")}
           </span>
           <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl text-balance">
-            Sorularınız için bize ulaşın
+            {t("title")}
           </h2>
-          <p className="mt-4 text-white/60">
-            Ekibimiz, tercüme ve danışmanlık ihtiyaçlarınız için en kısa
-            sürede size dönüş yapacaktır.
-          </p>
+          <p className="mt-4 text-white/60">{t("subtitle")}</p>
         </Reveal>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -26,7 +26,7 @@ export default function Contact() {
             >
               <Phone className="text-gold" size={22} />
               <div>
-                <p className="text-sm text-white/50">Telefon</p>
+                <p className="text-sm text-white/50">{t("phoneLabel")}</p>
                 <p className="mt-1 font-medium text-white">
                   +90 538 744 22 35
                 </p>
@@ -42,7 +42,7 @@ export default function Contact() {
             >
               <Mail className="text-gold" size={22} />
               <div>
-                <p className="text-sm text-white/50">E-posta</p>
+                <p className="text-sm text-white/50">{t("emailLabel")}</p>
                 <p className="mt-1 font-medium text-white break-all">
                   info@globalconsulting.com
                 </p>
@@ -54,9 +54,9 @@ export default function Contact() {
             <div className="flex h-full flex-col gap-4 rounded-2xl border border-white/10 bg-white/[0.03] p-7">
               <MapPin className="text-gold" size={22} />
               <div>
-                <p className="text-sm text-white/50">Adres</p>
+                <p className="text-sm text-white/50">{t("addressLabel")}</p>
                 <p className="mt-1 font-medium text-white">
-                  Manavgat, Antalya, Türkiye
+                  {t("addressValue")}
                 </p>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function Contact() {
 
           <Reveal delay={0.24}>
             <div className="flex h-full flex-col justify-between gap-4 rounded-2xl border border-gold/30 bg-gold/10 p-7">
-              <p className="text-sm text-white/70">Hızlı iletişim</p>
+              <p className="text-sm text-white/70">{t("quickLabel")}</p>
               <div className="flex flex-col gap-3">
                 <a
                   href="https://wa.me/905387442235"

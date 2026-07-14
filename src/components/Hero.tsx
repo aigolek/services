@@ -1,9 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { ArrowRight, MessageCircle } from "lucide-react";
 
 export default function Hero() {
+  const t = useTranslations("hero");
+  const countries = t.raw("countries") as string[];
+
   return (
     <section
       id="hero"
@@ -54,7 +58,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="mb-6 inline-flex items-center gap-2 rounded-full border border-gold/30 bg-gold/10 px-4 py-1.5 text-xs font-medium tracking-wide text-gold uppercase"
         >
-          Antalya · Türkiye
+          {t("badge")}
         </motion.span>
 
         <motion.h1
@@ -63,7 +67,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="max-w-3xl text-4xl font-semibold leading-tight text-white sm:text-5xl md:text-6xl"
         >
-          Global Consulting Group
+          {t("title")}
         </motion.h1>
 
         <motion.p
@@ -72,8 +76,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.22 }}
           className="mt-6 max-w-xl text-lg text-white/70 sm:text-xl"
         >
-          Profesyonel Tercüme ve Danışmanlık — uluslararası müşteriler için
-          güvenilir çözümler.
+          {t("subtitle")}
         </motion.p>
 
         <motion.div
@@ -83,10 +86,10 @@ export default function Hero() {
           className="mt-10 flex flex-col gap-4 sm:flex-row"
         >
           <a
-            href="#iletisim"
+            href="#contact"
             className="group inline-flex items-center justify-center gap-2 rounded-full bg-gold px-7 py-3.5 text-sm font-semibold text-navy transition-all hover:bg-gold-light hover:shadow-xl hover:shadow-gold/20"
           >
-            Bizimle İletişime Geçin
+            {t("ctaPrimary")}
             <ArrowRight
               size={16}
               className="transition-transform group-hover:translate-x-1"
@@ -99,7 +102,7 @@ export default function Hero() {
             className="inline-flex items-center justify-center gap-2 rounded-full border border-white/25 px-7 py-3.5 text-sm font-semibold text-white transition-all hover:border-gold hover:text-gold"
           >
             <MessageCircle size={16} />
-            Tercüme Talep Et
+            {t("ctaSecondary")}
           </a>
         </motion.div>
 
@@ -109,16 +112,14 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="mt-16 flex flex-wrap items-center gap-x-10 gap-y-4 text-white/50"
         >
-          {["Letonya", "Litvanya", "Estonya", "Fransa", "Almanya", "Rusya", "Ukrayna"].map(
-            (country) => (
-              <span
-                key={country}
-                className="text-xs font-medium uppercase tracking-widest"
-              >
-                {country}
-              </span>
-            )
-          )}
+          {countries.map((country) => (
+            <span
+              key={country}
+              className="text-xs font-medium uppercase tracking-widest"
+            >
+              {country}
+            </span>
+          ))}
         </motion.div>
       </div>
     </section>

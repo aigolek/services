@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Global Consulting Group | Translation & Consulting in Turkey",
+    "description": "Global Consulting Group — professional translation, residence permits, citizenship, visa and legal support in Antalya, Turkey."
+  },
+  "nav": {
+    "about": "About",
+    "translation": "Translation",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "ctaButton": "Get in Touch",
+    "changeLanguage": "Change language"
+  },
+  "hero": {
+    "badge": "Antalya · Turkey",
+    "title": "Global Consulting Group",
+    "subtitle": "Professional Translation and Consulting — reliable solutions for relocating and settling in Turkey.",
+    "ctaPrimary": "Get in Touch",
+    "ctaSecondary": "Request a Translation",
+    "countries": ["Latvia", "Lithuania", "Estonia", "France", "Germany", "Russia", "Ukraine"]
+  },
+  "about": {
+    "label": "About Us",
+    "title": "A consulting partner trusted by clients around the world",
+    "paragraph1": "Global Consulting Group works with clients from Latvia, Lithuania, Estonia, France, Germany, Russia, Ukraine and beyond. We support anyone planning to live, work or invest in Turkey — from document translation to full residence permit and citizenship support.",
+    "paragraph2": "Handling paperwork in a foreign country is always stressful, carries the risk of costly mistakes, and takes time. We take all the formalities on ourselves, guaranteeing full transparency and an official result — without complicated legal jargon.",
+    "stats": [
+      { "value": "7+", "label": "countries our clients come from" },
+      { "value": "1000+", "label": "cases completed" },
+      { "value": "100%", "label": "confidentiality and reliability" }
+    ],
+    "quote": "We treat clients from every country with the same care and trust.",
+    "quoteOrg": "GLOBAL CONSULTING GROUP",
+    "quoteLocation": "Manavgat, Antalya"
+  },
+  "translation": {
+    "label": "Translation",
+    "title": "Professional translation of any complexity — into every language in the world",
+    "intro": "Need an accurate translation of important documents, localization of a large IT project, or an urgent translation of personal correspondence? You've come to the right place. Our team brings together qualified translators, editors and native speakers, guaranteeing flawless quality in the shortest possible time.",
+    "whatWeTranslateTitle": "What do we translate?",
+    "categories": [
+      { "title": "Legal translation", "description": "Contracts, agreements, incorporation documents, powers of attorney, court filings." },
+      { "title": "Technical translation", "description": "Equipment manuals, technical drawings, specifications, research papers." },
+      { "title": "Medical translation", "description": "Medical reports, test results, documentation for medicines and equipment." },
+      { "title": "Business & marketing", "description": "Presentations, commercial proposals, advertising materials, financial reports." },
+      { "title": "IT & localization", "description": "Translation and adaptation of websites, mobile apps, software and game interfaces." },
+      { "title": "Personal documents", "description": "Passports, diplomas, certificates — with notarization available." }
+    ],
+    "whyUsTitle": "Why choose us?",
+    "whyUs": [
+      { "title": "Any level of complexity", "description": "We take on highly specialized texts full of complex terminology and perfect them." },
+      { "title": "Every language in the world", "description": "From the most common — English, German, Spanish — to rare and local dialects." },
+      { "title": "Strict quality control", "description": "Every translation goes through two-stage review: a subject-matter expert translator and a proofreading editor." },
+      { "title": "Confidentiality", "description": "Your personal data and trade secrets are securely protected — we strictly adhere to non-disclosure agreements (NDA)." }
+    ],
+    "howWeWorkTitle": "How we work",
+    "steps": [
+      { "title": "Request", "description": "You send us a file or a link to your website." },
+      { "title": "Quote", "description": "We calculate the price and exact turnaround time — free of charge." },
+      { "title": "Translation", "description": "A specialist translator works on your text, accounting for every linguistic nuance." },
+      { "title": "Proofreading", "description": "We check terminology accuracy, style and formatting." },
+      { "title": "Delivery", "description": "You receive a flawless translation in the format you need." }
+    ],
+    "ctaText": "Need a quote? Send us your text right now and we'll get back to you within 15 minutes!",
+    "ctaButton": "Send for Translation"
+  },
+  "services": {
+    "label": "Services",
+    "title": "From residence permit to citizenship",
+    "subtitle": "Relocation and legalization without the stress: Global Consulting takes care of everything.",
+    "checklist": [
+      { "text": "Document translation into every language in the world" },
+      { "text": "Citizenship and residence permit processing" },
+      { "text": "Collecting and preparing a complete document package" },
+      { "text": "Work permits" },
+      {
+        "text": "Visas of various categories",
+        "children": ["Work", "Student", "Family", "Digital Nomad", "Schengen visas", "And other visa types"]
+      },
+      { "text": "Medical insurance" },
+      { "text": "Legal services and consulting" },
+      { "text": "Real estate consulting" }
+    ],
+    "detailIntro": "Handling paperwork in a foreign country is always stressful, carries the risk of costly mistakes, and takes time. The Global Consulting team shields you from bureaucracy — we take on all the formalities and guarantee full transparency at every step.",
+    "categories": [
+      {
+        "title": "Residence permit & legal status",
+        "items": [
+          { "title": "Application & renewal", "description": "Remote and in-person residence permit applications, including student and the popular digital nomad permit." },
+          { "title": "Complex cases", "description": "Professional consulting and assistance in case of a residence permit refusal." },
+          { "title": "Problem resolution", "description": "A legal way out of overstay/visa violation status." }
+        ]
+      },
+      {
+        "title": "Citizenship & document handling",
+        "items": [
+          { "title": "Turnkey citizenship", "description": "Full support on the path to a new passport." },
+          { "title": "Legalization & apostille", "description": "Preparing documents from Russia for unimpeded use in Turkey." },
+          { "title": "Notarized translations", "description": "Official sworn translation of any complexity." }
+        ]
+      },
+      {
+        "title": "Additional support & protection",
+        "items": [
+          { "title": "Business & employment", "description": "Fast processing of official work permits." },
+          { "title": "Security", "description": "Selecting reliable medical insurance for foreigners." },
+          { "title": "Legal protection", "description": "Professional support and matching you with a specialized lawyer." },
+          { "title": "Everyday matters", "description": "Consulting on education and residency registration." }
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What do our clients say?",
+    "items": [
+      { "quote": "I was kept informed at every step of my residence permit application. My documents were prepared flawlessly and on time. Highly recommend.", "name": "Elena K.", "origin": "Latvia 🇱🇻" },
+      { "quote": "They handled our notarized translation need very quickly and professionally. Communication was always clear and friendly.", "name": "Marc D.", "origin": "France 🇫🇷" },
+      { "quote": "Building a new life in Turkey, this was the team we trusted most. Thank you, Global Consulting Group!", "name": "Olena P.", "origin": "Ukraine 🇺🇦" }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Have questions? Get in touch",
+    "subtitle": "Our team will respond to your translation and consulting inquiry as quickly as possible.",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "addressValue": "Manavgat, Antalya, Turkey",
+    "quickLabel": "Quick contact"
+  },
+  "footer": {
+    "rights": "© {year} Global Consulting Group. All rights reserved."
+  }
+}

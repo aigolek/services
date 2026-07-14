@@ -1,3 +1,5 @@
+import { useTranslations } from "next-intl";
+
 function InstagramIcon() {
   return (
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -17,6 +19,8 @@ function FacebookIcon() {
 }
 
 export default function Footer() {
+  const t = useTranslations("footer");
+
   return (
     <footer className="border-t border-white/10 bg-navy py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 text-center sm:flex-row sm:justify-between sm:text-left">
@@ -30,8 +34,7 @@ export default function Footer() {
         </a>
 
         <p className="text-xs text-white/40">
-          © {new Date().getFullYear()} Global Consulting Group. Tüm hakları
-          saklıdır.
+          {t("rights", { year: new Date().getFullYear() })}
         </p>
 
         <div className="flex items-center gap-4">

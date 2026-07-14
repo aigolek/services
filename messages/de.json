@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "Global Consulting Group | Übersetzung & Beratung in der Türkei",
+    "description": "Global Consulting Group — professionelle Übersetzungen, Aufenthaltstitel, Staatsbürgerschaft, Visa- und Rechtsberatung in Antalya, Türkei."
+  },
+  "nav": {
+    "about": "Über uns",
+    "translation": "Übersetzungen",
+    "services": "Leistungen",
+    "testimonials": "Referenzen",
+    "contact": "Kontakt",
+    "ctaButton": "Kontaktieren Sie uns",
+    "changeLanguage": "Sprache ändern"
+  },
+  "hero": {
+    "badge": "Antalya · Türkei",
+    "title": "Global Consulting Group",
+    "subtitle": "Professionelle Übersetzungen und Beratung — verlässliche Lösungen für Umzug und Aufenthalt in der Türkei.",
+    "ctaPrimary": "Kontaktieren Sie uns",
+    "ctaSecondary": "Übersetzung anfragen",
+    "countries": ["Lettland", "Litauen", "Estland", "Frankreich", "Deutschland", "Russland", "Ukraine"]
+  },
+  "about": {
+    "label": "Über uns",
+    "title": "Ein Beratungspartner, dem Kunden aus aller Welt vertrauen",
+    "paragraph1": "Global Consulting Group arbeitet mit Kunden aus Lettland, Litauen, Estland, Frankreich, Deutschland, Russland, der Ukraine und weiteren Ländern. Wir unterstützen alle, die in der Türkei leben, arbeiten oder investieren möchten — von der Dokumentenübersetzung bis zur vollständigen Begleitung bei Aufenthaltstitel und Staatsbürgerschaft.",
+    "paragraph2": "Behördengänge im Ausland sind immer mit Stress, Fehlerrisiko und Zeitverlust verbunden. Wir übernehmen sämtliche Formalitäten für Sie, garantieren volle Transparenz und ein offizielles Ergebnis — ohne komplizierten Juristenjargon.",
+    "stats": [
+      { "value": "7+", "label": "Länder, aus denen unsere Kunden kommen" },
+      { "value": "1000+", "label": "abgeschlossene Fälle" },
+      { "value": "100%", "label": "Vertraulichkeit und Zuverlässigkeit" }
+    ],
+    "quote": "Wir begegnen Kunden aus jedem Land mit derselben Sorgfalt und demselben Vertrauen.",
+    "quoteOrg": "GLOBAL CONSULTING GROUP",
+    "quoteLocation": "Manavgat, Antalya"
+  },
+  "translation": {
+    "label": "Übersetzungen",
+    "title": "Professionelle Übersetzung jeder Komplexität — in alle Sprachen der Welt",
+    "intro": "Benötigen Sie eine präzise Übersetzung wichtiger Dokumente, die Lokalisierung eines umfangreichen IT-Projekts oder eine dringende Übersetzung privater Korrespondenz? Sie sind bei uns richtig. Unser Team vereint qualifizierte Übersetzer, Lektoren und Muttersprachler — das garantiert makellose Qualität in kürzester Zeit.",
+    "whatWeTranslateTitle": "Was übersetzen wir?",
+    "categories": [
+      { "title": "Juristische Übersetzung", "description": "Verträge, Vereinbarungen, Gründungsdokumente, Vollmachten, Klageschriften." },
+      { "title": "Technische Übersetzung", "description": "Gerätehandbücher, technische Zeichnungen, Spezifikationen, Forschungsarbeiten." },
+      { "title": "Medizinische Übersetzung", "description": "Arztberichte, Untersuchungsergebnisse, Dokumentation zu Medikamenten und Medizintechnik." },
+      { "title": "Business & Marketing", "description": "Präsentationen, Angebote, Werbematerialien, Finanzberichte." },
+      { "title": "IT & Lokalisierung", "description": "Übersetzung und Anpassung von Websites, mobilen Apps sowie Software- und Spieloberflächen." },
+      { "title": "Persönliche Dokumente", "description": "Reisepässe, Diplome, Urkunden — mit optionaler notarieller Beglaubigung." }
+    ],
+    "whyUsTitle": "Warum uns wählen?",
+    "whyUs": [
+      { "title": "Jeder Schwierigkeitsgrad", "description": "Wir übernehmen hochspezialisierte Texte mit komplexer Terminologie und bringen sie zur Perfektion." },
+      { "title": "Alle Sprachen der Welt", "description": "Von den gängigsten Sprachen — Englisch, Deutsch, Spanisch — bis zu seltenen lokalen Dialekten." },
+      { "title": "Strenge Qualitätskontrolle", "description": "Jede Übersetzung durchläuft eine zweistufige Prüfung: durch einen Fachübersetzer und einen Lektor." },
+      { "title": "Vertraulichkeit", "description": "Ihre persönlichen Daten und Geschäftsgeheimnisse sind bestens geschützt — wir halten uns strikt an Vertraulichkeitsvereinbarungen (NDA)." }
+    ],
+    "howWeWorkTitle": "So arbeiten wir",
+    "steps": [
+      { "title": "Anfrage", "description": "Sie senden uns eine Datei oder einen Link zu Ihrer Website." },
+      { "title": "Angebot", "description": "Wir berechnen Preis und genaue Lieferzeit — kostenlos." },
+      { "title": "Übersetzung", "description": "Ein Fachübersetzer bearbeitet Ihren Text unter Berücksichtigung aller sprachlichen Feinheiten." },
+      { "title": "Lektorat", "description": "Wir prüfen Terminologie, Stil und Formatierung." },
+      { "title": "Lieferung", "description": "Sie erhalten die makellose Übersetzung im gewünschten Format." }
+    ],
+    "ctaText": "Benötigen Sie ein Angebot? Senden Sie uns jetzt Ihren Text — wir melden uns innerhalb von 15 Minuten bei Ihnen!",
+    "ctaButton": "Zur Übersetzung senden"
+  },
+  "services": {
+    "label": "Leistungen",
+    "title": "Vom Aufenthaltstitel zur Staatsbürgerschaft",
+    "subtitle": "Umzug und Legalisierung ohne Stress: Global Consulting übernimmt alle Formalitäten für Sie.",
+    "checklist": [
+      { "text": "Übersetzung von Dokumenten in alle Sprachen der Welt" },
+      { "text": "Beantragung von Staatsbürgerschaft und Aufenthaltstitel" },
+      { "text": "Zusammenstellung und Vorbereitung des vollständigen Dokumentenpakets" },
+      { "text": "Arbeitserlaubnis" },
+      {
+        "text": "Visa verschiedener Kategorien",
+        "children": ["Arbeitsvisum", "Studentenvisum", "Familienvisum", "Digital Nomad (digitaler Nomade)", "Schengen-Visa", "Weitere Visatypen"]
+      },
+      { "text": "Krankenversicherung" },
+      { "text": "Rechtsdienstleistungen und Beratung" },
+      { "text": "Immobilienberatung" }
+    ],
+    "detailIntro": "Behördengänge im Ausland sind immer mit Stress, Fehlerrisiko und Zeitverlust verbunden. Das Team von Global Consulting schützt Sie vor der Bürokratie — wir übernehmen alle Formalitäten und garantieren volle Transparenz bei jedem Schritt.",
+    "categories": [
+      {
+        "title": "Aufenthaltstitel & rechtlicher Status",
+        "items": [
+          { "title": "Beantragung & Verlängerung", "description": "Antragstellung für den Aufenthaltstitel per Fernzugriff oder persönlich, einschließlich Studenten- und dem beliebten Digital-Nomad-Aufenthaltstitel." },
+          { "title": "Komplexe Fälle", "description": "Professionelle Beratung und Unterstützung bei Ablehnung des Aufenthaltstitels." },
+          { "title": "Problemlösung", "description": "Legaler Ausweg aus einem Visaverstoß-Status." }
+        ]
+      },
+      {
+        "title": "Staatsbürgerschaft & Dokumentenbearbeitung",
+        "items": [
+          { "title": "Staatsbürgerschaft aus einer Hand", "description": "Vollständige Begleitung auf dem Weg zum neuen Reisepass." },
+          { "title": "Legalisierung & Apostille", "description": "Vorbereitung von Dokumenten aus Russland für die problemlose Verwendung in der Türkei." },
+          { "title": "Beglaubigte Übersetzungen", "description": "Offizielle vereidigte Übersetzung jeder Komplexität." }
+        ]
+      },
+      {
+        "title": "Zusätzliche Unterstützung & Schutz",
+        "items": [
+          { "title": "Business & Beschäftigung", "description": "Schnelle Beantragung offizieller Arbeitserlaubnisse." },
+          { "title": "Absicherung", "description": "Auswahl einer zuverlässigen Krankenversicherung für Ausländer." },
+          { "title": "Rechtsschutz", "description": "Professionelle Begleitung und Vermittlung eines spezialisierten Anwalts." },
+          { "title": "Alltagsfragen", "description": "Beratung zu Bildung und Meldewesen." }
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Referenzen",
+    "title": "Was sagen unsere Kunden?",
+    "items": [
+      { "quote": "Während meines gesamten Antrags auf einen Aufenthaltstitel wurde ich bei jedem Schritt informiert. Meine Unterlagen wurden fehlerfrei und pünktlich vorbereitet. Absolute Empfehlung.", "name": "Elena K.", "origin": "Lettland 🇱🇻" },
+      { "quote": "Unsere beglaubigte Übersetzung wurde sehr schnell und professionell erledigt. Die Kommunikation war stets klar und freundlich.", "name": "Marc D.", "origin": "Frankreich 🇫🇷" },
+      { "quote": "Beim Aufbau eines neuen Lebens in der Türkei war das Team, dem wir am meisten vertraut haben. Danke, Global Consulting Group!", "name": "Olena P.", "origin": "Ukraine 🇺🇦" }
+    ]
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Haben Sie Fragen? Kontaktieren Sie uns",
+    "subtitle": "Unser Team beantwortet Ihre Anfrage zu Übersetzungen und Beratung so schnell wie möglich.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail",
+    "addressLabel": "Adresse",
+    "addressValue": "Manavgat, Antalya, Türkei",
+    "quickLabel": "Schnellkontakt"
+  },
+  "footer": {
+    "rights": "© {year} Global Consulting Group. Alle Rechte vorbehalten."
+  }
+}
