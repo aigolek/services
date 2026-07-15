@@ -1,6 +1,7 @@
 import { CheckCircle2, FileCheck2, Home, Stamp } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Reveal from "./Reveal";
+import SectionGlow from "./SectionGlow";
 
 const CATEGORY_ICONS = [Home, Stamp, FileCheck2];
 
@@ -16,8 +17,9 @@ export default function Services() {
   const categories = t.raw("categories") as DetailCategory[];
 
   return (
-    <section id="services" className="bg-navy py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+    <section id="services" className="relative overflow-hidden bg-navy py-24 sm:py-32">
+      <SectionGlow />
+      <div className="relative mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
             {t("label")}
@@ -25,7 +27,7 @@ export default function Services() {
           <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl text-balance">
             {t("title")}
           </h2>
-          <p className="mt-5 text-base leading-relaxed text-white/60 sm:text-lg">
+          <p className="mt-5 text-base leading-relaxed text-white/70 sm:text-lg">
             {t("subtitle")}
           </p>
         </Reveal>
@@ -48,7 +50,7 @@ export default function Services() {
                       {item.children.map((child) => (
                         <li
                           key={child}
-                          className="rounded-full border border-white/15 px-3 py-1 text-xs text-white/60"
+                          className="rounded-full border border-white/15 px-3 py-1 text-xs text-white/70"
                         >
                           {child}
                         </li>
@@ -62,7 +64,7 @@ export default function Services() {
         </div>
 
         <Reveal delay={0.15}>
-          <p className="mt-16 max-w-2xl text-base leading-relaxed text-white/60">
+          <p className="mt-16 max-w-2xl text-base leading-relaxed text-white/70">
             {t("detailIntro")}
           </p>
         </Reveal>
@@ -73,8 +75,8 @@ export default function Services() {
             const Icon = CATEGORY_ICONS[i];
             return (
               <Reveal key={title} delay={i * 0.1}>
-                <div className="h-full rounded-2xl border border-white/10 bg-white/[0.03] p-8 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:bg-white/[0.06]">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 text-gold">
+                <div className="group h-full rounded-2xl border border-white/10 bg-white/[0.03] p-8 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:bg-white/[0.06]">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 text-gold transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
                     <Icon size={22} />
                   </div>
                   <h3 className="mt-6 text-lg font-semibold text-white">
@@ -86,7 +88,7 @@ export default function Services() {
                         <p className="text-sm font-semibold text-gold">
                           {item.title}
                         </p>
-                        <p className="mt-1 text-sm leading-relaxed text-white/60">
+                        <p className="mt-1 text-sm leading-relaxed text-white/70">
                           {item.description}
                         </p>
                       </li>

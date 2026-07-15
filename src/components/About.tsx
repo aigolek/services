@@ -1,5 +1,7 @@
 import { Globe2, ShieldCheck, Users } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Counter from "./Counter";
+import GlobeIllustration from "./GlobeIllustration";
 import Reveal from "./Reveal";
 
 const STAT_ICONS = [Globe2, Users, ShieldCheck];
@@ -9,8 +11,12 @@ export default function About() {
   const stats = t.raw("stats") as { value: string; label: string }[];
 
   return (
-    <section id="about" className="relative bg-cream py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+    <section id="about" className="relative overflow-hidden bg-cream py-24 sm:py-32">
+      <div className="pointer-events-none absolute inset-0 text-navy">
+        <GlobeIllustration className="absolute -right-16 -top-10 h-[420px] w-[420px] opacity-[0.35] sm:-right-10" />
+      </div>
+
+      <div className="relative mx-auto max-w-6xl px-6">
         <div className="grid gap-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
           <div>
             <Reveal>
@@ -23,13 +29,13 @@ export default function About() {
             </Reveal>
 
             <Reveal delay={0.1}>
-              <p className="mt-6 text-base leading-relaxed text-navy/70 sm:text-lg">
+              <p className="mt-6 text-base leading-relaxed text-navy/80 sm:text-lg">
                 {t("paragraph1")}
               </p>
             </Reveal>
 
             <Reveal delay={0.18}>
-              <p className="mt-4 text-base leading-relaxed text-navy/70 sm:text-lg">
+              <p className="mt-4 text-base leading-relaxed text-navy/80 sm:text-lg">
                 {t("paragraph2")}
               </p>
             </Reveal>
@@ -42,9 +48,9 @@ export default function About() {
                     <div key={label} className="flex flex-col gap-2">
                       <Icon className="text-gold" size={22} />
                       <span className="text-2xl font-semibold text-navy sm:text-3xl">
-                        {value}
+                        <Counter value={value} />
                       </span>
-                      <span className="text-xs text-navy/60 sm:text-sm">
+                      <span className="text-xs text-navy/70 sm:text-sm">
                         {label}
                       </span>
                     </div>
@@ -56,8 +62,9 @@ export default function About() {
 
           <Reveal delay={0.15} className="relative">
             <div className="relative overflow-hidden rounded-3xl bg-navy p-10 shadow-2xl shadow-navy/20 sm:p-12">
-              <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-gold/10 blur-2xl" />
-              <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-gold/10 blur-2xl" />
+              <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-gold/15 blur-2xl" />
+              <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-gold/15 blur-2xl" />
+              <GlobeIllustration className="absolute -bottom-16 -right-16 h-56 w-56 text-white opacity-20" />
               <p className="relative font-serif text-2xl italic leading-relaxed text-white/90 sm:text-3xl">
                 &ldquo;{t("quote")}&rdquo;
               </p>
@@ -65,7 +72,7 @@ export default function About() {
               <p className="relative mt-6 text-sm font-medium tracking-wide text-gold">
                 {t("quoteOrg")}
               </p>
-              <p className="relative text-sm text-white/50">
+              <p className="relative text-sm text-white/60">
                 {t("quoteLocation")}
               </p>
             </div>

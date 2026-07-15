@@ -23,14 +23,14 @@ export default function Testimonials() {
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
           {items.map(({ quote, name, origin }, i) => (
             <Reveal key={name} delay={i * 0.1}>
-              <div className="flex h-full flex-col rounded-2xl border border-navy/10 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-navy/5">
-                <Quote className="text-gold" size={28} />
-                <p className="mt-6 flex-1 text-sm leading-relaxed text-navy/70 sm:text-base">
+              <div className="group flex h-full flex-col rounded-2xl border border-navy/10 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-navy/5">
+                <Quote className="text-gold transition-transform duration-300 group-hover:scale-110" size={28} />
+                <p className="mt-6 flex-1 text-sm leading-relaxed text-navy/80 sm:text-base">
                   &ldquo;{quote}&rdquo;
                 </p>
                 <div className="mt-6 border-t border-navy/10 pt-4">
                   <p className="text-sm font-semibold text-navy">{name}</p>
-                  <p className="text-xs text-navy/50">{origin}</p>
+                  <p className="text-xs text-navy/60">{origin}</p>
                 </div>
               </div>
             </Reveal>

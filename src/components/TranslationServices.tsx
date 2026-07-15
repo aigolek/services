@@ -11,6 +11,7 @@ import {
   Wrench,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
+import GlobeIllustration from "./GlobeIllustration";
 import Reveal from "./Reveal";
 
 const CATEGORY_ICONS = [Gavel, Wrench, HeartPulse, Briefcase, Code2, IdCard];
@@ -23,8 +24,9 @@ export default function TranslationServices() {
   const steps = t.raw("steps") as { title: string; description: string }[];
 
   return (
-    <section id="translation" className="bg-cream py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+    <section id="translation" className="relative overflow-hidden bg-cream py-24 sm:py-32">
+      <GlobeIllustration className="pointer-events-none absolute -left-24 bottom-0 h-[380px] w-[380px] text-navy opacity-[0.3]" />
+      <div className="relative mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
             {t("label")}
@@ -32,7 +34,7 @@ export default function TranslationServices() {
           <h2 className="mt-4 text-3xl font-semibold text-navy sm:text-4xl text-balance">
             {t("title")}
           </h2>
-          <p className="mt-5 text-base leading-relaxed text-navy/70 sm:text-lg">
+          <p className="mt-5 text-base leading-relaxed text-navy/80 sm:text-lg">
             {t("intro")}
           </p>
         </Reveal>
@@ -49,13 +51,13 @@ export default function TranslationServices() {
             return (
               <Reveal key={title} delay={i * 0.06}>
                 <div className="group h-full rounded-2xl border border-navy/10 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-navy/5">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-navy/5 text-navy transition-colors group-hover:bg-gold group-hover:text-navy">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-navy/5 text-navy transition-all duration-300 group-hover:scale-110 group-hover:rotate-6 group-hover:bg-gold group-hover:text-navy">
                     <Icon size={20} />
                   </div>
                   <h4 className="mt-5 text-base font-semibold text-navy">
                     {title}
                   </h4>
-                  <p className="mt-2 text-sm leading-relaxed text-navy/60">
+                  <p className="mt-2 text-sm leading-relaxed text-navy/70">
                     {description}
                   </p>
                 </div>
@@ -75,10 +77,10 @@ export default function TranslationServices() {
             const Icon = WHY_US_ICONS[i];
             return (
               <Reveal key={title} delay={i * 0.06}>
-                <div className="h-full rounded-2xl bg-navy p-6 text-white">
-                  <Icon className="text-gold" size={20} />
+                <div className="group h-full rounded-2xl bg-navy p-6 text-white transition-all duration-300 hover:-translate-y-1">
+                  <Icon className="text-gold transition-transform duration-300 group-hover:scale-110" size={20} />
                   <h4 className="mt-4 text-sm font-semibold">{title}</h4>
-                  <p className="mt-2 text-xs leading-relaxed text-white/60">
+                  <p className="mt-2 text-xs leading-relaxed text-white/70">
                     {description}
                   </p>
                 </div>
@@ -103,7 +105,7 @@ export default function TranslationServices() {
                 <h4 className="mt-2 text-sm font-semibold text-navy">
                   {title}
                 </h4>
-                <p className="mt-2 text-xs leading-relaxed text-navy/60">
+                <p className="mt-2 text-xs leading-relaxed text-navy/70">
                   {description}
                 </p>
               </div>

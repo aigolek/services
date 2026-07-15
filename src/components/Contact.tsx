@@ -1,6 +1,7 @@
 import { ExternalLink, Mail, MapPin, MessageCircle, Phone, Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Reveal from "./Reveal";
+import SectionGlow from "./SectionGlow";
 
 function InstagramIcon() {
   return (
@@ -16,8 +17,9 @@ export default function Contact() {
   const t = useTranslations("contact");
 
   return (
-    <section id="contact" className="bg-navy py-24 sm:py-32">
-      <div className="mx-auto max-w-6xl px-6">
+    <section id="contact" className="relative overflow-hidden bg-navy py-24 sm:py-32">
+      <SectionGlow />
+      <div className="relative mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
             {t("label")}
@@ -25,7 +27,7 @@ export default function Contact() {
           <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl text-balance">
             {t("title")}
           </h2>
-          <p className="mt-4 text-white/60">{t("subtitle")}</p>
+          <p className="mt-4 text-white/70">{t("subtitle")}</p>
         </Reveal>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -36,7 +38,7 @@ export default function Contact() {
             >
               <Phone className="text-gold" size={22} />
               <div>
-                <p className="text-sm text-white/50">{t("phoneLabel")}</p>
+                <p className="text-sm text-white/65">{t("phoneLabel")}</p>
                 <p className="mt-1 font-medium text-white">
                   +90 538 744 22 35
                 </p>
@@ -52,7 +54,7 @@ export default function Contact() {
             >
               <Mail className="text-gold" size={22} />
               <div>
-                <p className="text-sm text-white/50">{t("emailLabel")}</p>
+                <p className="text-sm text-white/65">{t("emailLabel")}</p>
                 <p className="mt-1 font-medium text-white break-all">
                   info@globalconsulting.com
                 </p>
@@ -64,7 +66,7 @@ export default function Contact() {
             <div className="flex h-full flex-col gap-4 rounded-2xl border border-white/10 bg-white/[0.03] p-7">
               <MapPin className="text-gold" size={22} />
               <div>
-                <p className="text-sm text-white/50">{t("addressLabel")}</p>
+                <p className="text-sm text-white/65">{t("addressLabel")}</p>
                 <p className="mt-1 font-medium text-white">
                   {t("addressValue")}
                 </p>

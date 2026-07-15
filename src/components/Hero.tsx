@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex min-h-screen items-center overflow-hidden bg-navy pt-28 pb-20"
+      className="relative min-h-screen overflow-hidden bg-navy"
     >
       {/* Decorative background */}
       <div className="pointer-events-none absolute inset-0">
@@ -51,7 +51,7 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      <div className="relative mx-auto flex max-w-6xl flex-col items-start px-6">
+      <div className="relative mx-auto flex min-h-screen max-w-6xl flex-col items-start justify-center px-6 pt-28 pb-32">
         <motion.span
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
@@ -74,7 +74,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.22 }}
-          className="mt-6 max-w-xl text-lg text-white/70 sm:text-xl"
+          className="mt-6 max-w-xl text-lg text-white/80 sm:text-xl"
         >
           {t("subtitle")}
         </motion.p>
@@ -105,23 +105,29 @@ export default function Hero() {
             {t("ctaSecondary")}
           </a>
         </motion.div>
+      </div>
 
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+        className="absolute inset-x-0 bottom-10 w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"
+      >
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
-          className="mt-16 flex flex-wrap items-center gap-x-10 gap-y-4 text-white/50"
+          className="flex w-max items-center gap-10 text-white/60"
+          animate={{ x: ["0%", "-50%"] }}
+          transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
         >
-          {countries.map((country) => (
+          {[...countries, ...countries].map((country, i) => (
             <span
-              key={country}
+              key={`${country}-${i}`}
               className="text-xs font-medium uppercase tracking-widest"
             >
               {country}
             </span>
           ))}
         </motion.div>
-      </div>
+      </motion.div>
     </section>
   );
 }
