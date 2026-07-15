@@ -86,7 +86,7 @@ export default function Contact() {
                   WhatsApp
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/global.consulting.group"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-gold/60 px-4 py-2.5 text-sm font-semibold text-gold transition-colors hover:bg-gold/10"
