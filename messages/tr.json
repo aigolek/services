@@ -116,9 +116,9 @@
     "label": "Müşteri Yorumları",
     "title": "Bize güvenen müşterilerimiz ne diyor?",
     "items": [
-      { "quote": "İkamet başvurum boyunca her adımda bilgilendirildim. Belgelerim eksiksiz ve zamanında hazırlandı. Kesinlikle tavsiye ederim.", "name": "Elena K.", "origin": "Letonya 🇱🇻" },
-      { "quote": "Noter tasdikli tercüme ihtiyacımızı çok hızlı ve profesyonel şekilde çözdüler. İletişim her zaman net ve samimiydi.", "name": "Marc D.", "origin": "Fransa 🇫🇷" },
-      { "quote": "Türkiye'de yeni bir hayat kurarken en çok güvendiğimiz ekip oldular. Teşekkürler Global Consulting Group!", "name": "Olena P.", "origin": "Ukrayna 🇺🇦" }
+      { "quote": "Harika bir işletme, çalışanların hepsi çok değerli, işinin ehli.", "name": "VRL MHMT", "origin": "Google Yorumu" },
+      { "quote": "Profesyonel yaklaşım ve hızlı hizmetten çok memnun kaldım. Tanıdıklarıma tavsiye edeceğim.", "name": "Irina Acar", "origin": "Google Yorumu" },
+      { "quote": "Hızlı ve güvenilir hizmette sınır yok 👍", "name": "İlknur Bayrakcı", "origin": "Google Yorumu" }
     ]
   },
   "contact": {

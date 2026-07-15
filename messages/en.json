@@ -116,9 +116,9 @@
     "label": "Testimonials",
     "title": "What do our clients say?",
     "items": [
-      { "quote": "I was kept informed at every step of my residence permit application. My documents were prepared flawlessly and on time. Highly recommend.", "name": "Elena K.", "origin": "Latvia 🇱🇻" },
-      { "quote": "They handled our notarized translation need very quickly and professionally. Communication was always clear and friendly.", "name": "Marc D.", "origin": "France 🇫🇷" },
-      { "quote": "Building a new life in Turkey, this was the team we trusted most. Thank you, Global Consulting Group!", "name": "Olena P.", "origin": "Ukraine 🇺🇦" }
+      { "quote": "A wonderful business — every employee is truly skilled and dedicated.", "name": "VRL MHMT", "origin": "Google review" },
+      { "quote": "I was very pleased with the professional approach and fast service. I'll definitely recommend it to my friends.", "name": "Irina Acar", "origin": "Google review" },
+      { "quote": "No limit to fast, reliable service 👍", "name": "İlknur Bayrakcı", "origin": "Google review" }
     ]
   },
   "contact": {
