@@ -147,7 +147,6 @@ export default function Contact() {
                   />
                 </a>
               </div>
-              <p className="mt-auto text-xs text-white/40">{t("viewOnGoogle")} →</p>
             </div>
           </Reveal>
         </div>
