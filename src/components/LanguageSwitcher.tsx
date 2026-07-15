@@ -13,7 +13,7 @@ const LABELS: Record<Locale, string> = {
   de: "Deutsch",
 };
 
-export default function LanguageSwitcher({ dark = true }: { dark?: boolean }) {
+export default function LanguageSwitcher({ dark = false }: { dark?: boolean }) {
   const locale = useLocale() as Locale;
   const t = useTranslations("nav");
   const pathname = usePathname();

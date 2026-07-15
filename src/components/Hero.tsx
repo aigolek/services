@@ -11,43 +11,22 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative overflow-hidden bg-navy"
+      className="relative overflow-hidden bg-cream"
     >
       {/* Decorative background */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(201,162,39,0.16),transparent_55%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(201,162,39,0.14),transparent_55%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(201,162,39,0.10),transparent_55%)]" />
-        <svg
-          className="absolute inset-0 h-full w-full opacity-[0.06]"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            <pattern
-              id="grid"
-              width="48"
-              height="48"
-              patternUnits="userSpaceOnUse"
-            >
-              <path
-                d="M 48 0 L 0 0 0 48"
-                fill="none"
-                stroke="white"
-                strokeWidth="1"
-              />
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#grid)" />
-        </svg>
 
         <motion.div
           initial={{ opacity: 0, scale: 0.8, rotate: -8 }}
-          animate={{ opacity: 0.5, scale: 1, rotate: 0 }}
+          animate={{ opacity: 0.6, scale: 1, rotate: 0 }}
           transition={{ duration: 1.4, ease: "easeOut" }}
           className="absolute -right-24 top-1/2 -translate-y-1/2 hidden lg:block"
         >
-          <div className="h-[420px] w-[420px] rounded-full border border-gold/20" />
-          <div className="absolute inset-8 rounded-full border border-gold/15" />
-          <div className="absolute inset-16 rounded-full border border-gold/10" />
+          <div className="h-[420px] w-[420px] rounded-full border border-gold/25" />
+          <div className="absolute inset-8 rounded-full border border-gold/20" />
+          <div className="absolute inset-16 rounded-full border border-gold/15" />
         </motion.div>
       </div>
 
@@ -65,7 +44,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="max-w-3xl text-4xl font-semibold leading-tight text-white sm:text-5xl md:text-6xl"
+          className="max-w-3xl text-4xl font-semibold leading-tight text-navy sm:text-5xl md:text-6xl"
         >
           {t("title")}
         </motion.h1>
@@ -74,7 +53,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.22 }}
-          className="mt-6 max-w-xl text-lg text-white/80 sm:text-xl"
+          className="mt-6 max-w-xl text-lg text-navy/70 sm:text-xl"
         >
           {t("subtitle")}
         </motion.p>
@@ -99,7 +78,7 @@ export default function Hero() {
             href="https://wa.me/905387442235"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-full border border-white/25 px-7 py-3.5 text-sm font-semibold text-white transition-all hover:border-gold hover:text-gold"
+            className="inline-flex items-center justify-center gap-2 rounded-full border border-navy/20 px-7 py-3.5 text-sm font-semibold text-navy transition-all hover:border-gold hover:text-gold"
           >
             <MessageCircle size={16} />
             {t("ctaSecondary")}
@@ -114,7 +93,7 @@ export default function Hero() {
         className="relative w-full overflow-hidden pb-12 [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"
       >
         <motion.div
-          className="flex w-max items-center gap-10 text-white/60"
+          className="flex w-max items-center gap-10 text-navy/50"
           animate={{ x: ["0%", "-50%"] }}
           transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
         >

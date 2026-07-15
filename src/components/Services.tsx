@@ -17,17 +17,17 @@ export default function Services() {
   const categories = t.raw("categories") as DetailCategory[];
 
   return (
-    <section id="services" className="relative overflow-hidden bg-navy py-24 sm:py-32">
+    <section id="services" className="relative overflow-hidden bg-white py-24 sm:py-32">
       <SectionGlow />
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
             {t("label")}
           </span>
-          <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl text-balance">
+          <h2 className="mt-4 text-3xl font-semibold text-navy sm:text-4xl text-balance">
             {t("title")}
           </h2>
-          <p className="mt-5 text-base leading-relaxed text-white/70 sm:text-lg">
+          <p className="mt-5 text-base leading-relaxed text-navy/70 sm:text-lg">
             {t("subtitle")}
           </p>
         </Reveal>
@@ -46,7 +46,7 @@ export default function Services() {
                   className="mt-0.5 shrink-0 text-gold"
                 />
                 <div>
-                  <p className="text-sm font-medium text-white sm:text-base">
+                  <p className="text-sm font-medium text-navy sm:text-base">
                     {item.text}
                   </p>
                   {item.children && (
@@ -54,7 +54,7 @@ export default function Services() {
                       {item.children.map((child) => (
                         <li
                           key={child}
-                          className="rounded-full border border-white/15 px-3 py-1 text-xs text-white/70"
+                          className="rounded-full border border-navy/15 px-3 py-1 text-xs text-navy/70"
                         >
                           {child}
                         </li>
@@ -68,7 +68,7 @@ export default function Services() {
         </div>
 
         <Reveal delay={0.15}>
-          <p className="mt-16 max-w-2xl text-base leading-relaxed text-white/70">
+          <p className="mt-16 max-w-2xl text-base leading-relaxed text-navy/70">
             {t("detailIntro")}
           </p>
         </Reveal>
@@ -79,11 +79,11 @@ export default function Services() {
             const Icon = CATEGORY_ICONS[i];
             return (
               <Reveal key={title} delay={i * 0.1}>
-                <div className="group h-full rounded-2xl border border-white/10 bg-white/[0.03] p-8 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:bg-white/[0.06]">
+                <div className="group h-full rounded-2xl border border-navy/10 bg-cream p-8 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:shadow-lg hover:shadow-navy/5">
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10 text-gold transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
                     <Icon size={22} />
                   </div>
-                  <h3 className="mt-6 text-lg font-semibold text-white">
+                  <h3 className="mt-6 text-lg font-semibold text-navy">
                     {title}
                   </h3>
                   <ul className="mt-5 flex flex-col gap-4">
@@ -92,7 +92,7 @@ export default function Services() {
                         <p className="text-sm font-semibold text-gold">
                           {item.title}
                         </p>
-                        <p className="mt-1 text-sm leading-relaxed text-white/70">
+                        <p className="mt-1 text-sm leading-relaxed text-navy/70">
                           {item.description}
                         </p>
                       </li>

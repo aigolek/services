@@ -77,10 +77,10 @@ export default function TranslationServices() {
             const Icon = WHY_US_ICONS[i];
             return (
               <Reveal key={title} delay={i * 0.06}>
-                <div className="group h-full rounded-2xl bg-navy p-6 text-white transition-all duration-300 hover:-translate-y-1">
+                <div className="group h-full rounded-2xl border border-gold/25 bg-gold/[0.06] p-6 text-navy transition-all duration-300 hover:-translate-y-1 hover:border-gold/50 hover:bg-gold/10">
                   <Icon className="text-gold transition-transform duration-300 group-hover:scale-110" size={20} />
                   <h4 className="mt-4 text-sm font-semibold">{title}</h4>
-                  <p className="mt-2 text-xs leading-relaxed text-white/70">
+                  <p className="mt-2 text-xs leading-relaxed text-navy/70">
                     {description}
                   </p>
                 </div>
@@ -115,8 +115,8 @@ export default function TranslationServices() {
 
         {/* CTA */}
         <Reveal delay={0.15}>
-          <div className="mt-16 flex flex-col items-start gap-6 rounded-3xl bg-navy px-8 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-12">
-            <p className="max-w-xl text-base font-medium text-white sm:text-lg">
+          <div className="mt-16 flex flex-col items-start gap-6 rounded-3xl border border-gold/25 bg-gold/[0.06] px-8 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-12">
+            <p className="max-w-xl text-base font-medium text-navy sm:text-lg">
               {t("ctaText")}
             </p>
             <a

@@ -23,7 +23,7 @@ export default function Footer() {
   const t = useTranslations("footer");
 
   return (
-    <footer className="border-t border-white/10 bg-navy py-10">
+    <footer className="border-t border-navy/10 bg-cream py-10">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 text-center sm:flex-row sm:justify-between sm:text-left">
         <a href="#hero" className="flex items-center gap-2">
           <Image
@@ -33,12 +33,12 @@ export default function Footer() {
             height={312}
             className="h-8 w-auto"
           />
-          <span className="text-sm font-semibold tracking-wide text-white">
+          <span className="text-sm font-semibold tracking-wide text-navy">
             GLOBAL <span className="text-gold">CONSULTING</span> GROUP
           </span>
         </a>
 
-        <p className="text-xs text-white/55">
+        <p className="text-xs text-navy/50">
           {t("rights", { year: new Date().getFullYear() })}
         </p>
 
@@ -48,7 +48,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
-            className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-white/60 transition-colors hover:border-gold hover:text-gold"
+            className="flex h-9 w-9 items-center justify-center rounded-full border border-navy/15 text-navy/60 transition-colors hover:border-gold hover:text-gold"
           >
             <InstagramIcon />
           </a>
@@ -57,7 +57,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
-            className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-white/60 transition-colors hover:border-gold hover:text-gold"
+            className="flex h-9 w-9 items-center justify-center rounded-full border border-navy/15 text-navy/60 transition-colors hover:border-gold hover:text-gold"
           >
             <FacebookIcon />
           </a>

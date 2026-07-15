@@ -30,7 +30,7 @@ export default function Header() {
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-navy/95 backdrop-blur shadow-lg shadow-black/10"
+          ? "bg-white/90 backdrop-blur shadow-md shadow-navy/5"
           : "bg-transparent"
       }`}
     >
@@ -44,7 +44,7 @@ export default function Header() {
             className="h-9 w-auto shrink-0 transition-transform group-hover:scale-105"
             priority
           />
-          <span className="whitespace-nowrap text-white font-semibold tracking-wide text-sm sm:text-base">
+          <span className="whitespace-nowrap text-navy font-semibold tracking-wide text-sm sm:text-base">
             GLOBAL <span className="text-gold">CONSULTING</span> GROUP
           </span>
         </a>
@@ -54,7 +54,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="whitespace-nowrap text-sm font-medium text-white/80 hover:text-gold transition-colors"
+              className="whitespace-nowrap text-sm font-medium text-navy/70 hover:text-gold transition-colors"
             >
               {link.label}
             </a>
@@ -62,7 +62,7 @@ export default function Header() {
         </nav>
 
         <div className="hidden xl:flex items-center gap-4">
-          <LanguageSwitcher dark />
+          <LanguageSwitcher />
           <a
             href="#contact"
             className="whitespace-nowrap rounded-full bg-gold px-5 py-2 text-sm font-semibold text-navy transition-all hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20"
@@ -72,9 +72,9 @@ export default function Header() {
         </div>
 
         <div className="flex items-center gap-3 xl:hidden">
-          <LanguageSwitcher dark />
+          <LanguageSwitcher />
           <button
-            className="text-white"
+            className="text-navy"
             onClick={() => setOpen((v) => !v)}
             aria-label="Menu"
           >
@@ -84,20 +84,20 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="xl:hidden bg-navy/98 backdrop-blur border-t border-white/10 px-6 py-6 flex flex-col gap-5">
+        <div className="xl:hidden bg-white/98 backdrop-blur border-t border-navy/10 px-6 py-6 flex flex-col gap-5">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="text-white/90 hover:text-gold text-base font-medium"
+              className="text-navy/80 hover:text-gold text-base font-medium"
             >
               {link.label}
             </a>
           ))}
           <a
             href="tel:+905387442235"
-            className="flex items-center gap-2 text-white/90 text-base font-medium"
+            className="flex items-center gap-2 text-navy/80 text-base font-medium"
           >
             <Phone size={18} className="text-gold" />
             +90 538 744 22 35
