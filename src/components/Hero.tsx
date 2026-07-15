@@ -51,7 +51,7 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      <div className="relative mx-auto flex max-w-6xl flex-col items-start px-6 pt-36 pb-20 sm:pt-40">
+      <div className="relative mx-auto flex max-w-6xl flex-col items-start px-6 pt-24 pb-20 sm:pt-28">
         <motion.span
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
