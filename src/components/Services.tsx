@@ -35,7 +35,11 @@ export default function Services() {
         {/* Checklist */}
         <div className="mt-14 grid gap-x-10 gap-y-5 sm:grid-cols-2">
           {checklist.map((item, i) => (
-            <Reveal key={item.text} delay={i * 0.05}>
+            <Reveal
+              key={item.text}
+              delay={i * 0.05}
+              className={item.children ? "sm:col-span-2" : undefined}
+            >
               <div className="flex gap-3">
                 <CheckCircle2
                   size={20}
