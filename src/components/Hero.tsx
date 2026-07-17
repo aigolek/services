@@ -15,12 +15,6 @@ export default function Hero() {
       id="hero"
       className="relative overflow-hidden bg-[#fdf8f4]"
     >
-      {/* Decorative background */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(201,162,39,0.14),transparent_55%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(201,162,39,0.10),transparent_55%)]" />
-      </div>
-
       <div className="relative mx-auto flex max-w-6xl flex-col gap-8 px-6 pt-24 pb-20 sm:pt-28 lg:flex-row lg:items-center lg:justify-between lg:gap-4">
         <div className="flex flex-col items-start">
           <motion.span
@@ -90,10 +84,16 @@ export default function Hero() {
             alt="Global Consulting"
             width={500}
             height={500}
-            className="h-64 w-64 [mask-image:radial-gradient(circle_at_center,black_55%,transparent_78%)] sm:h-80 sm:w-80 lg:h-[420px] lg:w-[420px]"
+            className="h-72 w-72 sm:h-96 sm:w-96 lg:h-[480px] lg:w-[480px]"
             priority
           />
         </motion.div>
+      </div>
+
+      {/* Decorative gradient overlay — painted on top of content, incl. logo, so it blends with the flat cream logo background instead of leaving a visible seam */}
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(201,162,39,0.14),transparent_55%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(201,162,39,0.10),transparent_55%)]" />
       </div>
 
       <motion.div
