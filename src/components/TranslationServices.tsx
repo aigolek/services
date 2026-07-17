@@ -11,7 +11,7 @@ import {
   Wrench,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
-import GlobeIllustration from "./GlobeIllustration";
+import LogoWatermark from "./LogoWatermark";
 import Reveal from "./Reveal";
 
 const CATEGORY_ICONS = [Gavel, Wrench, HeartPulse, Briefcase, Code2, IdCard];
@@ -25,7 +25,7 @@ export default function TranslationServices() {
 
   return (
     <section id="translation" className="relative overflow-hidden bg-cream py-24 sm:py-32">
-      <GlobeIllustration className="pointer-events-none absolute -left-24 bottom-0 h-[380px] w-[380px] text-navy opacity-[0.3]" />
+      <LogoWatermark className="pointer-events-none absolute -right-28 bottom-0 h-[520px] w-[520px] opacity-[0.08]" />
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">

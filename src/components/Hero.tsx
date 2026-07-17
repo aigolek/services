@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { ArrowRight, MessageCircle } from "lucide-react";
+import LogoWatermark from "./LogoWatermark";
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -19,14 +20,12 @@ export default function Hero() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(201,162,39,0.10),transparent_55%)]" />
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.8, rotate: -8 }}
-          animate={{ opacity: 0.6, scale: 1, rotate: 0 }}
+          initial={{ opacity: 0, scale: 0.85, rotate: -6 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ duration: 1.4, ease: "easeOut" }}
-          className="absolute -right-24 top-1/2 -translate-y-1/2 hidden lg:block"
+          className="absolute -right-32 top-1/2 -translate-y-1/2 hidden lg:block"
         >
-          <div className="h-[420px] w-[420px] rounded-full border border-gold/25" />
-          <div className="absolute inset-8 rounded-full border border-gold/20" />
-          <div className="absolute inset-16 rounded-full border border-gold/15" />
+          <LogoWatermark className="h-[620px] w-[620px] opacity-[0.12]" />
         </motion.div>
       </div>
 
