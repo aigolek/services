@@ -1,6 +1,5 @@
 import { Quote } from "lucide-react";
 import { useTranslations } from "next-intl";
-import LogoWatermark from "./LogoWatermark";
 import Reveal from "./Reveal";
 
 type Testimonial = { quote: string; name: string; origin: string };
@@ -10,9 +9,8 @@ export default function Testimonials() {
   const items = t.raw("items") as Testimonial[];
 
   return (
-    <section id="testimonials" className="relative overflow-hidden bg-cream py-24 sm:py-32">
-      <LogoWatermark className="pointer-events-none absolute -left-28 -bottom-20 h-[480px] w-[480px] opacity-[0.08]" />
-      <div className="relative mx-auto max-w-6xl px-6">
+    <section id="testimonials" className="bg-cream py-24 sm:py-32">
+      <div className="mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
             {t("label")}

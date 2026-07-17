@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { ArrowRight, MessageCircle } from "lucide-react";
-import LogoWatermark from "./LogoWatermark";
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -20,12 +20,19 @@ export default function Hero() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(201,162,39,0.10),transparent_55%)]" />
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.85, rotate: -6 }}
-          animate={{ opacity: 1, scale: 1, rotate: 0 }}
-          transition={{ duration: 1.4, ease: "easeOut" }}
-          className="absolute -right-32 top-1/2 -translate-y-1/2 hidden lg:block"
+          initial={{ opacity: 0, scale: 0.9, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="absolute -right-6 top-1/2 -translate-y-1/2 hidden lg:block"
         >
-          <LogoWatermark className="h-[620px] w-[620px] opacity-[0.12]" />
+          <Image
+            src="/logo-full-light.jpg"
+            alt="Global Consulting"
+            width={500}
+            height={500}
+            className="h-[480px] w-[480px]"
+            priority
+          />
         </motion.div>
       </div>
 

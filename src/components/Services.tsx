@@ -1,6 +1,5 @@
 import { CheckCircle2, FileCheck2, Home, Stamp } from "lucide-react";
 import { useTranslations } from "next-intl";
-import LogoWatermark from "./LogoWatermark";
 import Reveal from "./Reveal";
 import SectionGlow from "./SectionGlow";
 
@@ -20,7 +19,6 @@ export default function Services() {
   return (
     <section id="services" className="relative overflow-hidden bg-white py-24 sm:py-32">
       <SectionGlow />
-      <LogoWatermark className="pointer-events-none absolute -right-24 top-10 h-[480px] w-[480px] opacity-[0.08]" />
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">
