@@ -30,7 +30,7 @@ export default function Hero() {
             alt="Global Consulting"
             width={500}
             height={500}
-            className="h-[480px] w-[480px]"
+            className="h-[480px] w-[480px] [mask-image:radial-gradient(circle_at_center,black_55%,transparent_78%)]"
             priority
           />
         </motion.div>
