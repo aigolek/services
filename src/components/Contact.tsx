@@ -1,5 +1,8 @@
+"use client";
+
 import { ExternalLink, Mail, MapPin, MessageCircle, Phone, Star } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { trackPhoneClick, trackWhatsAppClick } from "@/lib/analytics";
 import Reveal from "./Reveal";
 import SectionGlow from "./SectionGlow";
 
@@ -34,6 +37,7 @@ export default function Contact() {
           <Reveal delay={0}>
             <a
               href="tel:+905387442235"
+              onClick={() => trackPhoneClick("contact_section")}
               className="group flex h-full flex-col gap-4 rounded-2xl border border-navy/10 bg-cream p-7 transition-all hover:-translate-y-1 hover:border-gold/40 hover:shadow-lg hover:shadow-navy/5"
             >
               <Phone className="text-gold" size={22} />
@@ -82,6 +86,7 @@ export default function Contact() {
                   href="https://wa.me/905387442235"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackWhatsAppClick("contact_section")}
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-gold px-4 py-2.5 text-sm font-semibold text-navy transition-colors hover:bg-gold-light"
                 >
                   <MessageCircle size={16} />

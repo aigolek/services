@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { ArrowRight, MessageCircle } from "lucide-react";
+import { trackWhatsAppClick } from "@/lib/analytics";
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -69,6 +70,7 @@ export default function Hero() {
               href="https://wa.me/905387442235"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackWhatsAppClick("hero_button")}
               className="inline-flex items-center justify-center gap-2 rounded-full border border-navy/20 px-7 py-3.5 text-sm font-semibold text-navy transition-all hover:border-gold hover:text-gold"
             >
               <MessageCircle size={16} />
