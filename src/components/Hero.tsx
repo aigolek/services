@@ -26,7 +26,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="mb-6 inline-flex items-center gap-2 rounded-full border border-gold/30 bg-gold/10 px-4 py-1.5 text-xs font-medium tracking-wide text-gold uppercase"
+            className="mb-6 inline-flex items-center gap-2 rounded-full border border-gold/30 bg-gold/10 px-4 py-1.5 text-sm font-medium tracking-wide text-gold uppercase"
           >
             {t("badge")}
           </motion.span>
@@ -81,14 +81,14 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.9, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="pointer-events-none hidden shrink-0 lg:block"
+          className="pointer-events-none flex w-full justify-center shrink-0 lg:w-auto lg:justify-end"
         >
           <Image
             src="/logo-full-light.jpg"
             alt="Global Consulting"
             width={500}
             height={500}
-            className="h-[420px] w-[420px] [mask-image:radial-gradient(circle_at_center,black_55%,transparent_78%)]"
+            className="h-64 w-64 [mask-image:radial-gradient(circle_at_center,black_55%,transparent_78%)] sm:h-80 sm:w-80 lg:h-[420px] lg:w-[420px]"
             priority
           />
         </motion.div>
@@ -108,7 +108,7 @@ export default function Hero() {
           {[...countries, ...countries].map((country, i) => (
             <span
               key={`${country}-${i}`}
-              className="text-xs font-medium uppercase tracking-widest"
+              className="text-sm font-medium uppercase tracking-widest"
             >
               {country}
             </span>

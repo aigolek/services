@@ -21,7 +21,7 @@ export default function Contact() {
       <SectionGlow />
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
-          <span className="text-xs font-semibold uppercase tracking-widest text-gold">
+          <span className="text-sm font-semibold uppercase tracking-widest text-gold">
             {t("label")}
           </span>
           <h2 className="mt-4 text-3xl font-semibold text-navy sm:text-4xl text-balance">
@@ -38,7 +38,7 @@ export default function Contact() {
             >
               <Phone className="text-gold" size={22} />
               <div>
-                <p className="text-sm text-navy/60">{t("phoneLabel")}</p>
+                <p className="text-base text-navy/60">{t("phoneLabel")}</p>
                 <p className="mt-1 font-medium text-navy">
                   +90 538 744 22 35
                 </p>
@@ -54,7 +54,7 @@ export default function Contact() {
             >
               <Mail className="text-gold" size={22} />
               <div>
-                <p className="text-sm text-navy/60">{t("emailLabel")}</p>
+                <p className="text-base text-navy/60">{t("emailLabel")}</p>
                 <p className="mt-1 font-medium text-navy break-all">
                   info@globalconsulting.com
                 </p>
@@ -66,7 +66,7 @@ export default function Contact() {
             <div className="flex h-full flex-col gap-4 rounded-2xl border border-navy/10 bg-cream p-7">
               <MapPin className="text-gold" size={22} />
               <div>
-                <p className="text-sm text-navy/60">{t("addressLabel")}</p>
+                <p className="text-base text-navy/60">{t("addressLabel")}</p>
                 <p className="mt-1 font-medium text-navy">
                   {t("addressValue")}
                 </p>
@@ -76,7 +76,7 @@ export default function Contact() {
 
           <Reveal delay={0.24}>
             <div className="flex h-full flex-col justify-between gap-4 rounded-2xl border border-gold/30 bg-gold/10 p-7">
-              <p className="text-sm text-navy/70">{t("quickLabel")}</p>
+              <p className="text-base text-navy/70">{t("quickLabel")}</p>
               <div className="flex flex-col gap-3">
                 <a
                   href="https://wa.me/905387442235"
@@ -116,7 +116,7 @@ export default function Contact() {
 
           <Reveal delay={0.18}>
             <div className="flex h-full flex-col gap-4 rounded-2xl border border-navy/10 bg-cream p-7">
-              <p className="text-sm text-navy/70">{t("reviewsTitle")}</p>
+              <p className="text-base text-navy/70">{t("reviewsTitle")}</p>
               <div className="flex flex-col gap-3">
                 <a
                   href="https://www.google.com/maps/place/MANAVGAT+GLOBAL+TERC%C3%9CME/@36.7861385,31.442264,17z/data=!4m8!3m7!1s0x14c3575de130dd09:0xafab967b91cd49ff!8m2!3d36.7861343!4d31.4471349!9m1!1b1!16s%2Fg%2F11zkwz15_8"
@@ -124,7 +124,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="group flex items-center justify-between gap-3 rounded-xl border border-navy/10 bg-white px-4 py-3 transition-colors hover:border-gold/40"
                 >
-                  <span className="flex items-center gap-2 text-sm text-navy">
+                  <span className="flex items-center gap-2 text-base text-navy">
                     <Star size={16} className="text-gold" />
                     {t("reviewsManavgat")}
                   </span>
@@ -139,7 +139,7 @@ export default function Contact() {
                   rel="noopener noreferrer"
                   className="group flex items-center justify-between gap-3 rounded-xl border border-navy/10 bg-white px-4 py-3 transition-colors hover:border-gold/40"
                 >
-                  <span className="flex items-center gap-2 text-sm text-navy">
+                  <span className="flex items-center gap-2 text-base text-navy">
                     <Star size={16} className="text-gold" />
                     {t("reviewsAntalya")}
                   </span>

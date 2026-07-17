@@ -26,7 +26,7 @@ export default function TranslationServices() {
     <section id="translation" className="relative overflow-hidden bg-cream py-24 sm:py-32">
       <div className="relative mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
-          <span className="text-xs font-semibold uppercase tracking-widest text-gold">
+          <span className="text-sm font-semibold uppercase tracking-widest text-gold">
             {t("label")}
           </span>
           <h2 className="mt-4 text-3xl font-semibold text-navy sm:text-4xl text-balance">
@@ -55,7 +55,7 @@ export default function TranslationServices() {
                   <h4 className="mt-5 text-base font-semibold text-navy">
                     {title}
                   </h4>
-                  <p className="mt-2 text-sm leading-relaxed text-navy/70">
+                  <p className="mt-2 text-base leading-relaxed text-navy/70">
                     {description}
                   </p>
                 </div>
@@ -77,8 +77,8 @@ export default function TranslationServices() {
               <Reveal key={title} delay={i * 0.06}>
                 <div className="group h-full rounded-2xl border border-gold/25 bg-gold/[0.06] p-6 text-navy transition-all duration-300 hover:-translate-y-1 hover:border-gold/50 hover:bg-gold/10">
                   <Icon className="text-gold transition-transform duration-300 group-hover:scale-110" size={20} />
-                  <h4 className="mt-4 text-sm font-semibold">{title}</h4>
-                  <p className="mt-2 text-xs leading-relaxed text-navy/70">
+                  <h4 className="mt-4 text-base font-semibold">{title}</h4>
+                  <p className="mt-2 text-sm leading-relaxed text-navy/70">
                     {description}
                   </p>
                 </div>
@@ -100,10 +100,10 @@ export default function TranslationServices() {
                 <span className="text-4xl font-semibold text-navy/10">
                   {String(i + 1).padStart(2, "0")}
                 </span>
-                <h4 className="mt-2 text-sm font-semibold text-navy">
+                <h4 className="mt-2 text-base font-semibold text-navy">
                   {title}
                 </h4>
-                <p className="mt-2 text-xs leading-relaxed text-navy/70">
+                <p className="mt-2 text-sm leading-relaxed text-navy/70">
                   {description}
                 </p>
               </div>

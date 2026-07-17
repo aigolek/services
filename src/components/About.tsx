@@ -15,7 +15,7 @@ export default function About() {
         <div className="grid items-start gap-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
           <div>
             <Reveal>
-              <span className="text-xs font-semibold uppercase tracking-widest text-gold">
+              <span className="text-sm font-semibold uppercase tracking-widest text-gold">
                 {t("label")}
               </span>
               <h2 className="mt-4 text-3xl font-semibold text-navy sm:text-4xl text-balance">
@@ -45,7 +45,7 @@ export default function About() {
                       <span className="text-2xl font-semibold text-navy sm:text-3xl">
                         <Counter value={value} />
                       </span>
-                      <span className="text-xs text-navy/70 sm:text-sm">
+                      <span className="text-sm text-navy/70">
                         {label}
                       </span>
                     </div>
@@ -63,10 +63,10 @@ export default function About() {
                 &ldquo;{t("quote")}&rdquo;
               </p>
               <div className="relative mt-8 h-px w-16 bg-gold" />
-              <p className="relative mt-6 text-sm font-medium tracking-wide text-gold">
+              <p className="relative mt-6 text-base font-medium tracking-wide text-gold">
                 {t("quoteOrg")}
               </p>
-              <p className="relative text-sm text-navy/60">
+              <p className="relative text-base text-navy/60">
                 {t("quoteLocation")}
               </p>
             </div>

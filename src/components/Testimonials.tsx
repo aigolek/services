@@ -12,7 +12,7 @@ export default function Testimonials() {
     <section id="testimonials" className="bg-cream py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
-          <span className="text-xs font-semibold uppercase tracking-widest text-gold">
+          <span className="text-sm font-semibold uppercase tracking-widest text-gold">
             {t("label")}
           </span>
           <h2 className="mt-4 text-3xl font-semibold text-navy sm:text-4xl text-balance">
@@ -25,12 +25,12 @@ export default function Testimonials() {
             <Reveal key={name} delay={i * 0.1}>
               <div className="group flex h-full flex-col rounded-2xl border border-navy/10 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-navy/5">
                 <Quote className="text-gold transition-transform duration-300 group-hover:scale-110" size={28} />
-                <p className="mt-6 flex-1 text-sm leading-relaxed text-navy/80 sm:text-base">
+                <p className="mt-6 flex-1 text-base leading-relaxed text-navy/80">
                   &ldquo;{quote}&rdquo;
                 </p>
                 <div className="mt-6 border-t border-navy/10 pt-4">
-                  <p className="text-sm font-semibold text-navy">{name}</p>
-                  <p className="text-xs text-navy/60">{origin}</p>
+                  <p className="text-base font-semibold text-navy">{name}</p>
+                  <p className="text-sm text-navy/60">{origin}</p>
                 </div>
               </div>
             </Reveal>

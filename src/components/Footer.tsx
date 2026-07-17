@@ -38,7 +38,7 @@ export default function Footer() {
           </span>
         </a>
 
-        <p className="text-xs text-navy/50">
+        <p className="text-sm text-navy/50">
           {t("rights", { year: new Date().getFullYear() })}
         </p>
 
