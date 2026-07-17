@@ -9,7 +9,7 @@ export default function Testimonials() {
   const items = t.raw("items") as Testimonial[];
 
   return (
-    <section id="testimonials" className="bg-cream py-24 sm:py-32">
+    <section id="testimonials" className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <Reveal className="max-w-2xl">
           <span className="text-sm font-semibold uppercase tracking-widest text-gold">

@@ -12,10 +12,10 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   const NAV_LINKS = [
-    { href: "#about", label: t("about") },
-    { href: "#translation", label: t("translation") },
     { href: "#services", label: t("services") },
+    { href: "#translation", label: t("translation") },
     { href: "#testimonials", label: t("testimonials") },
+    { href: "#about", label: t("about") },
     { href: "#contact", label: t("contact") },
   ];
 

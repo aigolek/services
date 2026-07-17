@@ -10,7 +10,7 @@ export default function About() {
   const stats = t.raw("stats") as { value: string; label: string }[];
 
   return (
-    <section id="about" className="relative overflow-hidden bg-white py-24 sm:py-32">
+    <section id="about" className="relative overflow-hidden bg-cream py-24 sm:py-32">
       <div className="relative mx-auto max-w-6xl px-6">
         <div className="grid items-start gap-16 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
           <div>
