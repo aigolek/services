@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative overflow-hidden bg-cream"
+      className="relative overflow-hidden bg-[#fdf8f4]"
     >
       {/* Decorative background */}
       <div className="pointer-events-none absolute inset-0">
