@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Geist } from "next/font/google";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { routing, type Locale } from "@/i18n/routing";
 import "../globals.css";
 
@@ -50,6 +52,8 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+        <Analytics />
+        <GoogleAnalytics />
       </body>
     </html>
   );
