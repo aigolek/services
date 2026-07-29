@@ -5,8 +5,10 @@ import {
   Globe2,
   HeartPulse,
   IdCard,
+  Languages,
   Layers,
   Lock,
+  MapPin,
   ShieldCheck,
   Wrench,
 } from "lucide-react";
@@ -16,11 +18,27 @@ import Reveal from "./Reveal";
 const CATEGORY_ICONS = [Gavel, Wrench, HeartPulse, Briefcase, Code2, IdCard];
 const WHY_US_ICONS = [Layers, Globe2, ShieldCheck, Lock];
 
+const TURKISH_CITIES = [
+  "Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Aksaray", "Amasya", "Ankara",
+  "Antalya", "Ardahan", "Artvin", "Aydın", "Balıkesir", "Bartın", "Batman",
+  "Bayburt", "Bilecik", "Bingöl", "Bitlis", "Bolu", "Burdur", "Bursa",
+  "Çanakkale", "Çankırı", "Çorum", "Denizli", "Diyarbakır", "Düzce", "Edirne",
+  "Elazığ", "Erzincan", "Erzurum", "Eskişehir", "Gaziantep", "Giresun",
+  "Gümüşhane", "Hakkâri", "Hatay", "Iğdır", "Isparta", "İstanbul", "İzmir",
+  "Kahramanmaraş", "Karabük", "Karaman", "Kars", "Kastamonu", "Kayseri",
+  "Kilis", "Kırıkkale", "Kırklareli", "Kırşehir", "Kocaeli", "Konya",
+  "Kütahya", "Malatya", "Manisa", "Mardin", "Mersin", "Muğla", "Muş",
+  "Nevşehir", "Niğde", "Ordu", "Osmaniye", "Rize", "Sakarya", "Samsun",
+  "Şanlıurfa", "Siirt", "Sinop", "Şırnak", "Sivas", "Tekirdağ", "Tokat",
+  "Trabzon", "Tunceli", "Uşak", "Van", "Yalova", "Yozgat", "Zonguldak",
+];
+
 export default function TranslationServices() {
   const t = useTranslations("translation");
   const categories = t.raw("categories") as { title: string; description: string }[];
   const whyUs = t.raw("whyUs") as { title: string; description: string }[];
   const steps = t.raw("steps") as { title: string; description: string }[];
+  const languages = t.raw("languages") as string[];
 
   return (
     <section id="translation" className="relative overflow-hidden bg-cream py-24 sm:py-32">
@@ -35,6 +53,29 @@ export default function TranslationServices() {
           <p className="mt-5 text-base leading-relaxed text-navy/80 sm:text-lg">
             {t("intro")}
           </p>
+        </Reveal>
+
+        {/* Languages bar */}
+        <Reveal delay={0.05}>
+          <div className="mt-10 flex flex-wrap items-center gap-3 rounded-2xl border border-navy/10 bg-white p-5">
+            <span className="flex items-center gap-2 text-sm font-semibold text-navy">
+              <Languages size={18} className="text-gold" />
+              {t("languagesTitle")}
+            </span>
+            <div className="flex flex-wrap gap-2">
+              {languages.map((lang) => (
+                <span
+                  key={lang}
+                  className="rounded-full border border-gold/30 bg-gold/[0.08] px-4 py-1.5 text-sm font-medium text-navy"
+                >
+                  {lang}
+                </span>
+              ))}
+              <span className="rounded-full px-4 py-1.5 text-sm font-medium text-navy/50">
+                {t("languagesOthers")}
+              </span>
+            </div>
+          </div>
         </Reveal>
 
         {/* What we translate */}
@@ -110,6 +151,32 @@ export default function TranslationServices() {
             </Reveal>
           ))}
         </div>
+
+        {/* Cities coverage */}
+        <Reveal delay={0.1}>
+          <div className="mt-16 rounded-3xl border border-navy/10 bg-white p-8 sm:p-10">
+            <div className="flex items-center gap-2">
+              <MapPin size={20} className="text-gold" />
+              <h3 className="text-lg font-semibold text-navy sm:text-xl">
+                {t("citiesTitle")}
+              </h3>
+            </div>
+            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-navy/70">
+              {t("citiesSubtitle")}
+            </p>
+            <div className="mt-6 flex flex-wrap gap-2">
+              {TURKISH_CITIES.map((city) => (
+                <a
+                  key={city}
+                  href="#contact"
+                  className="rounded-full border border-navy/10 bg-cream px-3.5 py-1.5 text-sm font-medium text-navy/80 transition-colors hover:border-gold/50 hover:bg-gold/10 hover:text-navy"
+                >
+                  {city}
+                </a>
+              ))}
+            </div>
+          </div>
+        </Reveal>
 
         {/* CTA */}
         <Reveal delay={0.15}>

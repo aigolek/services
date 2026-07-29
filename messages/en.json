@@ -38,6 +38,9 @@
     "label": "Translation",
     "title": "Professional translation of any complexity — into every language in the world",
     "intro": "Need an accurate translation of important documents, localization of a large IT project, or an urgent translation of personal correspondence? You've come to the right place. Our team brings together qualified translators, editors and native speakers, guaranteeing flawless quality in the shortest possible time.",
+    "languagesTitle": "Languages we work with",
+    "languages": ["Russian", "Turkish", "English", "German", "French", "Italian", "Spanish", "Arabic", "Persian", "Azerbaijani", "Ukrainian"],
+    "languagesOthers": "and many others",
     "whatWeTranslateTitle": "What do we translate?",
     "categories": [
       { "title": "Legal translation", "description": "Contracts, agreements, incorporation documents, powers of attorney, court filings." },
@@ -62,6 +65,8 @@
       { "title": "Proofreading", "description": "We check terminology accuracy, style and formatting." },
       { "title": "Delivery", "description": "You receive a flawless translation in the format you need." }
     ],
+    "citiesTitle": "Cities we serve across Turkey",
+    "citiesSubtitle": "Certified translation and interpreting available nationwide — tap your city to reach us.",
     "ctaText": "Need a quote? Send us your text right now and we'll get back to you within 15 minutes!",
     "ctaButton": "Send for Translation"
   },

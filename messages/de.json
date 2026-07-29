@@ -38,6 +38,9 @@
     "label": "Übersetzungen",
     "title": "Professionelle Übersetzung jeder Komplexität — in alle Sprachen der Welt",
     "intro": "Benötigen Sie eine präzise Übersetzung wichtiger Dokumente, die Lokalisierung eines umfangreichen IT-Projekts oder eine dringende Übersetzung privater Korrespondenz? Sie sind bei uns richtig. Unser Team vereint qualifizierte Übersetzer, Lektoren und Muttersprachler — das garantiert makellose Qualität in kürzester Zeit.",
+    "languagesTitle": "Sprachen, mit denen wir arbeiten",
+    "languages": ["Russisch", "Türkisch", "Englisch", "Deutsch", "Französisch", "Italienisch", "Spanisch", "Arabisch", "Persisch", "Aserbaidschanisch", "Ukrainisch"],
+    "languagesOthers": "und viele weitere",
     "whatWeTranslateTitle": "Was übersetzen wir?",
     "categories": [
       { "title": "Juristische Übersetzung", "description": "Verträge, Vereinbarungen, Gründungsdokumente, Vollmachten, Klageschriften." },
@@ -62,6 +65,8 @@
       { "title": "Lektorat", "description": "Wir prüfen Terminologie, Stil und Formatierung." },
       { "title": "Lieferung", "description": "Sie erhalten die makellose Übersetzung im gewünschten Format." }
     ],
+    "citiesTitle": "Städte in der Türkei, in denen wir tätig sind",
+    "citiesSubtitle": "Beglaubigte Übersetzungen und Dolmetschen im ganzen Land — tippen Sie auf Ihre Stadt, um uns zu kontaktieren.",
     "ctaText": "Benötigen Sie ein Angebot? Senden Sie uns jetzt Ihren Text — wir melden uns innerhalb von 15 Minuten bei Ihnen!",
     "ctaButton": "Zur Übersetzung senden"
   },

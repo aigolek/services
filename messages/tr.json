@@ -38,6 +38,9 @@
     "label": "Tercüme",
     "title": "Her seviyede profesyonel tercüme — dünyanın tüm dillerine",
     "intro": "Önemli belgelerinizin doğru bir tercümesine, büyük ölçekli bir IT projesinin lokalizasyonuna ya da acil bir kişisel yazışma tercümesine mi ihtiyacınız var? Doğru yerdesiniz. Ekibimiz uzman tercümanları, editörleri ve anadili konuşanları bir araya getirerek en kısa sürede kusursuz kalite garanti eder.",
+    "languagesTitle": "Çalıştığımız diller",
+    "languages": ["Rusça", "Türkçe", "İngilizce", "Almanca", "Fransızca", "İtalyanca", "İspanyolca", "Arapça", "Farsça", "Azerice", "Ukraynaca"],
+    "languagesOthers": "ve daha birçoğu",
     "whatWeTranslateTitle": "Neleri tercüme ediyoruz?",
     "categories": [
       { "title": "Hukuki tercüme", "description": "Sözleşmeler, anlaşmalar, kuruluş belgeleri, vekaletnameler, dava dilekçeleri." },
@@ -62,6 +65,8 @@
       { "title": "Redaksiyon", "description": "Terim doğruluğunu, üslubu ve biçimlendirmeyi kontrol ederiz." },
       { "title": "Teslim", "description": "İhtiyacınız olan formatta kusursuz tercümenizi teslim alırsınız." }
     ],
+    "citiesTitle": "Türkiye genelinde hizmet verdiğimiz şehirler",
+    "citiesSubtitle": "Yeminli tercüme ve sözlü çeviri hizmetleri tüm Türkiye'de mevcuttur — bize ulaşmak için şehrinize dokunun.",
     "ctaText": "Fiyat teklifi mi istiyorsunuz? Metninizi hemen gönderin, 15 dakika içinde sizinle iletişime geçelim!",
     "ctaButton": "Tercümeye Gönder"
   },
