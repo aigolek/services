@@ -17,3 +17,9 @@ export function trackPhoneClick(source: string) {
     event_label: source,
   });
 }
+
+export function trackCalculatorSubmit() {
+  window.gtag?.("event", "calculator_submit", {
+    event_category: "engagement",
+  });
+}
