@@ -8,6 +8,8 @@
   --gold: #c9a227;
   --gold-light: #e0bf5a;
   --cream: #f8f7f4;
+  --whatsapp: #25d366;
+  --whatsapp-dark: #1ebe5a;
   --font-sans: var(--font-geist-sans);
 }
 
@@ -19,6 +21,8 @@
   --color-gold: var(--gold);
   --color-gold-light: var(--gold-light);
   --color-cream: var(--cream);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-dark: var(--whatsapp-dark);
   --font-sans: var(--font-geist-sans);
 }
 

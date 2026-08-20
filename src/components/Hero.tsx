@@ -52,7 +52,7 @@ export default function Hero() {
           >
             <a
               href="#contact"
-              className="group inline-flex items-center justify-center gap-2 rounded-full bg-gold px-7 py-3.5 text-sm font-semibold text-navy transition-all hover:bg-gold-light hover:shadow-xl hover:shadow-gold/20"
+              className="group inline-flex items-center justify-center gap-2 rounded-full bg-whatsapp px-7 py-3.5 text-sm font-semibold text-white transition-all hover:bg-whatsapp-dark hover:shadow-xl hover:shadow-whatsapp/20"
             >
               {t("ctaPrimary")}
               <ArrowRight

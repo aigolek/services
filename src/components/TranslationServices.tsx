@@ -186,7 +186,7 @@ export default function TranslationServices() {
             </p>
             <a
               href="#contact"
-              className="inline-flex shrink-0 items-center justify-center rounded-full bg-gold px-7 py-3.5 text-sm font-semibold text-navy transition-all hover:bg-gold-light hover:shadow-xl hover:shadow-gold/20"
+              className="inline-flex shrink-0 items-center justify-center rounded-full bg-whatsapp px-7 py-3.5 text-sm font-semibold text-white transition-all hover:bg-whatsapp-dark hover:shadow-xl hover:shadow-whatsapp/20"
             >
               {t("ctaButton")}
             </a>

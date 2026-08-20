@@ -65,7 +65,7 @@ export default function Header() {
           <LanguageSwitcher />
           <a
             href="#contact"
-            className="whitespace-nowrap rounded-full bg-gold px-5 py-2 text-sm font-semibold text-navy transition-all hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20"
+            className="whitespace-nowrap rounded-full bg-whatsapp px-5 py-2 text-sm font-semibold text-white transition-all hover:bg-whatsapp-dark hover:shadow-lg hover:shadow-whatsapp/20"
           >
             {t("ctaButton")}
           </a>
@@ -105,7 +105,7 @@ export default function Header() {
           <a
             href="#contact"
             onClick={() => setOpen(false)}
-            className="rounded-full bg-gold px-5 py-3 text-center text-sm font-semibold text-navy"
+            className="rounded-full bg-whatsapp px-5 py-3 text-center text-sm font-semibold text-white"
           >
             {t("ctaButton")}
           </a>
