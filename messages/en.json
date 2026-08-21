@@ -81,7 +81,8 @@
     "notaryLabel": "Notarization required",
     "apostilleLabel": "Apostille required",
     "fileLabel": "Attach your document",
-    "fileHint": "PDF, DOC, JPG, PNG — up to 10 MB",
+    "fileHint": "PDF, DOC, JPG, PNG — up to 4 MB",
+    "fileTooLarge": "File is too large — 4 MB maximum. Compress it or send it via WhatsApp instead.",
     "submitButton": "Send request",
     "submitting": "Sending…",
     "successMessage": "Done! Your request has been sent — we'll get back to you shortly.",
@@ -93,6 +94,11 @@
     "yes": "Yes",
     "no": "No",
     "emailSubject": "Translation calculator request — Global Consulting Group"
+  },
+  "gallery": {
+    "label": "Our office",
+    "title": "The people behind Global Consulting",
+    "subtitle": "Real moments from our office in Manavgat: clients with their finished documents and our team at work."
   },
   "services": {
     "label": "Services",
@@ -144,10 +150,39 @@
   "testimonials": {
     "label": "Testimonials",
     "title": "What do our clients say?",
+    "source": "Google review",
+    "photoBadge": "With client photo",
     "items": [
-      { "quote": "A wonderful business — every employee is truly skilled and dedicated.", "name": "VRL MHMT", "origin": "Google review" },
-      { "quote": "I was very pleased with the professional approach and fast service. I'll definitely recommend it to my friends.", "name": "Irina Acar", "origin": "Google review" },
-      { "quote": "No limit to fast, reliable service 👍", "name": "İlknur Bayrakcı", "origin": "Google review" }
+      { "quote": "The translation was done accurately and with real attention to detail. Everything was finished exactly on time, with no stress at all. Thank you for your responsibility and professionalism — I'll definitely come back and gladly recommend you.", "name": "Akbala Karatay" },
+      { "quote": "I came to the agency for a translation of Turkish documents into Russian. They respond very quickly, and the documents were translated accurately and on time. Thank you for the help and the pleasant attitude — I'll definitely be back.", "name": "Юлия Гиматдинова" },
+      { "quote": "Thank you to Duru Tercüme for their support with our visa paperwork and translation. Their prices are quite reasonable, and their friendly, warm attitude — thank you so much.", "name": "Ibrahim Şahin" },
+      { "quote": "Good afternoon. I've been working with Oksana for a long time now and I'm always happy with her work. She helps quickly and conveniently, and she's easy to talk to. Thank you so much for the help and cooperation.", "name": "Soltanat Alibieva" },
+      { "quote": "Communication was pleasant and fast — I'm satisfied.", "name": "Yusuf Güleş" },
+      { "quote": "Very fast and friendly service. Thanks to everyone.", "name": "İsa Özdemir" },
+      { "quote": "Coming from France, I urgently needed an official translation. Everything was done in under 2 hours — super fast and efficient. Nothing to complain about, thank you so much!", "name": "Selen Dayan" },
+      { "quote": "We needed an Italian translation in Manavgat and couldn't find one anywhere — it turned out the office works with partner translators in other cities. They helped the people of Manavgat quickly and at a fair price. Thank you so much, especially to Oksana and the rest of the friendly staff…", "name": "Yavuz & Mehmet Akif Bayram" },
+      { "quote": "I want to express my huge gratitude for six whole years of help. The whole time, you guided me through residence permit paperwork, document translation and all kinds of bureaucratic tasks. I always felt support, professionalism and responsibility. Everything went smoothly, clearly and without unnecessary stress — which matters so much with these things. You don't just do your job, you genuinely help and care about the outcome. I especially want to highlight your attentiveness, speed, and willingness to explain even the most complicated points in plain language. Thank you for your reliability and for being someone I could fully count on all these years.", "name": "Анастасия Алферова" },
+      { "quote": "I went to Oksana for document translation, a tourist visa for Turkey, and preparing a document package for a tourist residence permit. Her approach is professional: everything is done precisely, correctly and on time. Oksana is a very responsive person, always ready to help and suggest the right solution. The result always matches expectations, and sometimes exceeds them. I confidently recommend her services to anyone who values reliability and quality.", "name": "Konfetka KotikLubimaya" },
+      { "quote": "The care and attention were top-notch, we're very happy. The prices are reasonable and everything is handled quickly. You can trust them with confidence. Ms. Oksana is also very kind. Thank you!", "name": "Spor Psikolojisi" },
+      { "quote": "Fast translation with good price.", "name": "Osamah Mahmood" },
+      { "quote": "Excellent service, responsive staff!", "name": "Роман Заостровский" },
+      { "quote": "I recommend — the service, attitude and quality of work are top-notch, everything is clear and understandable. All documents were done very quickly. Thank you so much.", "name": "Andres Antsiferov" },
+      { "quote": "A huge thank you to Oksana for wonderful work, responsiveness and honesty. The agency's work is beyond praise.", "name": "Narina" },
+      { "quote": "A huge thank you for the help with document handling and processing. I didn't even expect it to be so fast and to take so few resources — financial, and most importantly, emotional!", "name": "Дарья Мещерякова" },
+      { "quote": "We want to express our huge gratitude to the staff! True professionals and simply good people! Whenever we reached out, we got fast, qualified help. Highly recommend!", "name": "Евгения Горбачевская" },
+      { "quote": "I arranged a work visa for my wife — everything was done perfectly, and later they helped with the family residence permit just as well. They found many low-cost options for us! I recommend Oksana!", "name": "Eugeny Vizner" },
+      { "quote": "I want to express my huge gratitude for the help with my documents. You were my last hope — without you, I don't know how my case would have turned out. From the bottom of my heart, I wish your company prosperity and an endless stream of grateful clients. Sincerely, Maria.", "name": "Mariya Kolesnikova" },
+      { "quote": "I reached out for help getting a digital nomad visa for Turkey. The situation was complicated — I had an entry ban in place, so handling it myself was nearly impossible. The specialists gave me a thorough consultation, explained every option, helped gather the documents, and supported me at every step — always in touch and honest about the risks. In the end, the visa was approved successfully. Thankful for the professional approach, expertise and support through a difficult situation. If your case isn't a standard one, don't hesitate to reach out.", "name": "T T" },
+      { "quote": "They handled our matter very quickly. We're very happy.", "name": "Tuğba Nur Özen" },
+      { "quote": "A huge thank you to Irina for completing flawless work urgently, for understanding how complicated the situation was, and for all the help. Wonderful work!", "name": "Olga Akar" },
+      { "quote": "I turned to the Global Tercüme agency for citizenship processing — they gathered the missing documents and did an enormous amount of work. I got my citizenship thanks to the professionalism of the agency's director, Oksana — without her, I couldn't have handled what seemed like impossible obstacles. Oksana is always in touch and very responsive.", "name": "RiTa" },
+      { "quote": "Three years ago I reached out specifically to Oksana. A very reliable agency — they helped put together the document package for marriage registration and a residence permit (translations, apostilles from the consulate, found affordable health insurance, booked appointments). Everything handled end-to-end, with full support through to the result and advice on any question. Later there were serious difficulties getting citizenship for my daughter — Oksana found a solution, and my daughter got her citizenship. A true professional: fast, precise and reliable. Before this we'd gone to two other companies, wasted time with no results. Now we go to them for anything, and they always help quickly.", "name": "Наталья Эртурк" },
+      { "quote": "I only get my insurance, translations and documents done here. Four years running, everything's been smooth — pay once and forget about it.", "name": "Stas Kurliandcev", "photo": true },
+      { "quote": "I'm from Indonesia and came for a translation — I'm very happy, no problems at all. Thank you so much to Duru Tercüme.", "name": "Mehmetefe Darılma", "photo": true },
+      { "quote": "I came for translation of several documents into Turkish. Very happy with the result: everything was done quickly, they kept me updated the whole way and gave helpful advice. One document needed to be certified at the consulate under a tight deadline, and I couldn't get an appointment myself — the team handled it for me. Thank you for such well-coordinated work!", "name": "Leysan" },
+      { "quote": "To get a foreign passport for my minor son, I needed a translation of the child travel consent. I turned to Oksana and I'm very grateful for the professional help. The people here are wonderful, responsive and professional, always happy to help. Reach out with confidence — highly recommend!", "name": "Лідія Потапенко" },
+      { "quote": "I had a birth certificate, a court decision and a passport translated. Very happy with the service — fast and accurate. Thank you!", "name": "Anastasiia Pavlova" },
+      { "quote": "Very happy with the work! The document translation was fast, accurate and error-free. The staff were polite, explained everything in detail and helped with the paperwork. Thanks to their professionalism, the whole process went smoothly without unnecessary complications. Thank you so much for the excellent service! I recommend it to anyone who needs quality document translation.", "name": "Diana Marinova" }
     ]
   },
   "contact": {

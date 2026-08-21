@@ -81,7 +81,8 @@
     "notaryLabel": "Notarielle Beglaubigung erforderlich",
     "apostilleLabel": "Apostille erforderlich",
     "fileLabel": "Dokument anhängen",
-    "fileHint": "PDF, DOC, JPG, PNG — bis zu 10 MB",
+    "fileHint": "PDF, DOC, JPG, PNG — bis zu 4 MB",
+    "fileTooLarge": "Die Datei ist zu groß — maximal 4 MB. Komprimieren Sie sie oder senden Sie sie per WhatsApp.",
     "submitButton": "Anfrage senden",
     "submitting": "Wird gesendet…",
     "successMessage": "Fertig! Ihre Anfrage wurde gesendet — wir melden uns in Kürze bei Ihnen.",
@@ -93,6 +94,11 @@
     "yes": "Ja",
     "no": "Nein",
     "emailSubject": "Anfrage vom Übersetzungsrechner — Global Consulting Group"
+  },
+  "gallery": {
+    "label": "Unser Büro",
+    "title": "Die Menschen hinter Global Consulting",
+    "subtitle": "Echte Momente aus unserem Büro in Manavgat: Kunden mit ihren fertigen Dokumenten und unser Team bei der Arbeit."
   },
   "services": {
     "label": "Leistungen",
@@ -144,10 +150,39 @@
   "testimonials": {
     "label": "Referenzen",
     "title": "Was sagen unsere Kunden?",
+    "source": "Google-Rezension",
+    "photoBadge": "Mit Kundenfoto",
     "items": [
-      { "quote": "Ein großartiges Unternehmen — alle Mitarbeiter sind echte Profis in ihrem Fach.", "name": "VRL MHMT", "origin": "Google-Bewertung" },
-      { "quote": "Ich war sehr zufrieden mit dem professionellen Vorgehen und dem schnellen Service. Ich werde es auf jeden Fall weiterempfehlen.", "name": "Irina Acar", "origin": "Google-Bewertung" },
-      { "quote": "Keine Grenzen bei schnellem, zuverlässigem Service 👍", "name": "İlknur Bayrakcı", "origin": "Google-Bewertung" }
+      { "quote": "Die Übersetzung wurde sorgfältig und präzise angefertigt, man merkt die Aufmerksamkeit fürs Detail. Alles war pünktlich fertig, ganz ohne Stress. Danke für die Verantwortung und Professionalität — ich komme auf jeden Fall wieder und empfehle es gerne weiter.", "name": "Akbala Karatay" },
+      { "quote": "Ich habe die Agentur für die Übersetzung türkischer Dokumente ins Russische beauftragt. Die Antwort kam sehr schnell, und die Dokumente wurden präzise und pünktlich übersetzt. Danke für die Hilfe und die freundliche Art! Ich komme definitiv wieder.", "name": "Юлия Гиматдинова" },
+      { "quote": "Vielen Dank an das Büro Duru Tercüme für die Unterstützung bei unseren Visumsunterlagen und der Übersetzung. Die Preise sind sehr fair, und für die freundliche, herzliche Art vielen Dank.", "name": "Ibrahim Şahin" },
+      { "quote": "Guten Tag. Ich arbeite schon lange mit Oksana zusammen und bin immer zufrieden mit ihrer Arbeit. Sie hilft schnell und unkompliziert, man kann sich mit ihr leicht verständigen. Vielen Dank für die Hilfe und die Zusammenarbeit.", "name": "Soltanat Alibieva" },
+      { "quote": "Die Kommunikation war angenehm und schnell, ich bin zufrieden.", "name": "Yusuf Güleş" },
+      { "quote": "Sehr schneller und freundlicher Service. Danke an alle.", "name": "İsa Özdemir" },
+      { "quote": "Ich kam aus Frankreich und brauchte dringend eine offizielle Übersetzung. Alles wurde in unter 2 Stunden erledigt — super schnell und effizient. Nichts auszusetzen, vielen Dank!", "name": "Selen Dayan" },
+      { "quote": "Wir brauchten eine italienische Übersetzung in Manavgat und fanden nirgends eine — es stellte sich heraus, dass das Büro mit Partnerübersetzern in anderen Städten zusammenarbeitet. Sie haben den Menschen in Manavgat schnell und zu fairen Preisen geholfen. Vielen Dank, besonders an Oksana und das übrige freundliche Team…", "name": "Yavuz & Mehmet Akif Bayram" },
+      { "quote": "Ich möchte mich von Herzen für sechs Jahre Unterstützung bedanken. Die ganze Zeit haben Sie mich bei der Aufenthaltserlaubnis, bei Dokumentenübersetzungen und bei allen möglichen bürokratischen Aufgaben begleitet. Ich habe immer Unterstützung, Professionalität und Verantwortungsbewusstsein gespürt. Alle Vorgänge liefen ruhig, klar und ohne unnötigen Stress ab — das ist gerade bei solchen Angelegenheiten so wichtig. Sie erledigen nicht einfach nur Ihre Arbeit, sondern helfen wirklich und interessieren sich für das Ergebnis. Besonders hervorheben möchte ich die Aufmerksamkeit, die Schnelligkeit und die Bereitschaft, auch die kompliziertesten Punkte einfach zu erklären. Danke für Ihre Zuverlässigkeit und dafür, dass ich mich all die Jahre voll und ganz auf Sie verlassen konnte.", "name": "Анастасия Алферова" },
+      { "quote": "Ich habe mich für die Dokumentenübersetzung, ein Touristenvisum für die Türkei sowie die Vorbereitung der Unterlagen für eine touristische Aufenthaltserlaubnis an Oksana gewandt. Ihr Vorgehen ist professionell: alles wird präzise, korrekt und pünktlich erledigt. Oksana ist ein sehr hilfsbereiter Mensch, immer bereit zu helfen und die richtige Lösung vorzuschlagen. Das Ergebnis entspricht immer den Erwartungen, manchmal übertrifft es sie sogar. Ich empfehle ihre Dienste jedem, der Zuverlässigkeit und Qualität schätzt, mit voller Überzeugung.", "name": "Konfetka KotikLubimaya" },
+      { "quote": "Die Aufmerksamkeit und Fürsorge waren erstklassig, wir sind sehr zufrieden. Die Preise sind fair und alles wird schnell erledigt. Man kann sich beruhigt darauf verlassen. Frau Oksana ist zudem sehr freundlich. Vielen Dank!", "name": "Spor Psikolojisi" },
+      { "quote": "Schnelle Übersetzung zu einem guten Preis.", "name": "Osamah Mahmood" },
+      { "quote": "Ausgezeichneter Service, hilfsbereite Mitarbeiter!", "name": "Роман Заостровский" },
+      { "quote": "Ich empfehle es — Service, Umgang und Arbeitsqualität sind auf höchstem Niveau, alles ist klar und verständlich. Alle Dokumente wurden sehr schnell erledigt. Vielen herzlichen Dank.", "name": "Andres Antsiferov" },
+      { "quote": "Vielen Dank an Oksana für die wunderbare Arbeit, ihre Hilfsbereitschaft und Ehrlichkeit. Die Arbeit der Agentur ist über jedes Lob erhaben.", "name": "Narina" },
+      { "quote": "Vielen Dank für die Hilfe bei der Begleitung und Bearbeitung der Dokumente. Ich hätte nicht gedacht, dass alles so schnell und mit so wenig Aufwand geht — finanziell, und vor allem emotional!", "name": "Дарья Мещерякова" },
+      { "quote": "Wir möchten dem Team unseren großen Dank aussprechen! Profis auf ihrem Gebiet und einfach gute Menschen! Bei jeder Anfrage haben wir schnelle und kompetente Hilfe bekommen. Sehr zu empfehlen!", "name": "Евгения Горбачевская" },
+      { "quote": "Ich habe für meine Frau ein Arbeitsvisum beantragt — alles wurde bestens erledigt, später half man auch bei der familiären Aufenthaltserlaubnis, das lief ebenso gut. Man hat uns viele kostengünstige Optionen gefunden! Ich empfehle Oksana!", "name": "Eugeny Vizner" },
+      { "quote": "Ich möchte mich von Herzen für die Hilfe mit meinen Dokumenten bedanken. Sie waren meine letzte Hoffnung — ohne Sie weiß ich nicht, wie sich meine Angelegenheit entwickelt hätte. Von ganzem Herzen wünsche ich Ihrem Unternehmen Wohlstand und einen endlosen Strom dankbarer Kunden. Mit freundlichen Grüßen, Maria.", "name": "Mariya Kolesnikova" },
+      { "quote": "Ich habe um Hilfe bei einem Digital-Nomad-Visum für die Türkei gebeten. Die Situation war kompliziert — gegen mich lag ein Einreiseverbot vor, sodass ich es allein kaum lösen konnte. Die Spezialisten haben mich ausführlich beraten, alle Möglichkeiten erklärt, mir bei den Unterlagen geholfen und mich bei jedem Schritt begleitet — immer erreichbar und ehrlich über die Risiken. Am Ende wurde das Visum erfolgreich erteilt. Danke für den professionellen Ansatz, die Kompetenz und die Unterstützung in einer schwierigen Situation. Wenn Ihr Fall nicht dem Standard entspricht, wenden Sie sich ruhig an sie.", "name": "T T" },
+      { "quote": "Sie haben unser Anliegen sehr schnell erledigt. Wir sind sehr zufrieden.", "name": "Tuğba Nur Özen" },
+      { "quote": "Ein großes Dankeschön an Irina für die dringende und tadellose Erledigung der Arbeit, für das Verständnis für die schwierige Situation und die geleistete Hilfe. Großartige Arbeit!", "name": "Olga Akar" },
+      { "quote": "Ich habe mich an die Agentur Global Tercüme wegen der Staatsbürgerschaft gewandt — sie haben die fehlenden Dokumente zusammengetragen und eine enorme Arbeit geleistet. Dank der Professionalität der Leiterin Oksana habe ich die Staatsbürgerschaft erhalten — ohne sie hätte ich die scheinbar unüberwindbaren Hürden nicht gemeistert. Oksana ist immer erreichbar und sehr hilfsbereit.", "name": "RiTa" },
+      { "quote": "Vor drei Jahren habe ich mich gezielt an Oksana gewandt. Eine sehr zuverlässige Agentur — sie halfen uns bei den Unterlagen für die Eheschließung und die Aufenthaltserlaubnis (Übersetzungen, Apostillen vom Konsulat, eine günstige Krankenversicherung, Terminvereinbarungen). Alles aus einer Hand, mit voller Begleitung bis zum Ergebnis und Beratung zu jeder Frage. Später gab es große Schwierigkeiten mit der Staatsbürgerschaft meiner Tochter — Oksana fand eine Lösung, und meine Tochter erhielt die Staatsbürgerschaft. Eine echte Profi: schnell, präzise, zuverlässig. Davor waren wir bei zwei anderen Firmen — vergeblich, ohne Ergebnis. Jetzt wenden wir uns bei jeder Frage nur noch hierhin, und es wird immer schnell geholfen.", "name": "Наталья Эртурк" },
+      { "quote": "Versicherungen, Übersetzungen und Dokumente mache ich nur noch hier. Seit vier Jahren läuft alles reibungslos — einmal bezahlt und vergessen.", "name": "Stas Kurliandcev", "photo": true },
+      { "quote": "Ich komme aus Indonesien und habe hier eine Übersetzung machen lassen — ich bin sehr zufrieden, es gab keinerlei Probleme. Vielen Dank an Duru Tercüme.", "name": "Mehmetefe Darılma", "photo": true },
+      { "quote": "Ich habe mehrere Dokumente ins Türkische übersetzen lassen. Sehr zufrieden: alles wurde in kurzer Zeit erledigt, ich wurde ständig auf dem Laufenden gehalten und bekam hilfreiche Tipps. Ein Dokument musste beim Konsulat beglaubigt werden, die Zeit war knapp und ich bekam selbst keinen Termin — das Team hat das für mich übernommen. Danke für die eingespielte Zusammenarbeit!", "name": "Leysan" },
+      { "quote": "Für den Auslandspass meines minderjährigen Sohnes brauchte ich eine Übersetzung der Ausreisegenehmigung. Ich habe mich an Oksana gewandt und bin für die professionelle Hilfe sehr dankbar. Hier arbeiten wunderbare, aufmerksame und professionelle Menschen, die immer gerne helfen. Wenden Sie sich ohne Bedenken dorthin, ich empfehle es sehr!", "name": "Лідія Потапенко" },
+      { "quote": "Ich habe eine Geburtsurkunde, einen Gerichtsbeschluss und einen Pass übersetzen lassen. Sehr zufrieden mit dem Service — schnell und korrekt. Vielen Dank!", "name": "Anastasiia Pavlova" },
+      { "quote": "Sehr zufrieden mit der Arbeit! Die Dokumentenübersetzung war schnell, präzise und fehlerfrei. Die Mitarbeiter waren sehr freundlich, haben alles ausführlich erklärt und bei der Abwicklung geholfen. Dank ihrer Professionalität verlief der ganze Prozess ruhig und ohne unnötige Komplikationen. Vielen Dank für den ausgezeichneten Service! Ich empfehle es jedem, der eine qualitativ hochwertige Dokumentenübersetzung braucht.", "name": "Diana Marinova" }
     ]
   },
   "contact": {

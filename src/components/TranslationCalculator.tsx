@@ -1,14 +1,15 @@
 "use client";
 
-import { useRef, useState, type FormEvent } from "react";
+import { useRef, useState, type ChangeEvent, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
 import { FileCheck2, Loader2, MessageCircle, Paperclip, Send, Stamp } from "lucide-react";
 import Reveal from "./Reveal";
 import { trackCalculatorSubmit, trackWhatsAppClick } from "@/lib/analytics";
 
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/mkjwyzzz";
+const API_ENDPOINT = "/api/calculator-request";
+const MAX_FILE_BYTES = 4 * 1024 * 1024;
 
-const WHATSAPP_NUMBER = "77078232289";
+const WHATSAPP_NUMBER = "905387442235";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
@@ -23,14 +24,27 @@ export default function TranslationCalculator() {
   const [notary, setNotary] = useState(false);
   const [apostille, setApostille] = useState(false);
   const [fileName, setFileName] = useState("");
+  const [fileTooLarge, setFileTooLarge] = useState(false);
   const [status, setStatus] = useState<Status>("idle");
+
+  function handleFileChange(e: ChangeEvent<HTMLInputElement>) {
+    const selected = e.target.files?.[0];
+    if (selected && selected.size > MAX_FILE_BYTES) {
+      setFileTooLarge(true);
+      setFileName("");
+      e.target.value = "";
+      return;
+    }
+    setFileTooLarge(false);
+    setFileName(selected?.name ?? "");
+  }
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("submitting");
     try {
       const formData = new FormData(e.currentTarget);
-      const res = await fetch(FORMSPREE_ENDPOINT, {
+      const res = await fetch(API_ENDPOINT, {
         method: "POST",
         body: formData,
         headers: { Accept: "application/json" },
@@ -159,10 +173,13 @@ export default function TranslationCalculator() {
                   type="file"
                   name="file"
                   accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
-                  onChange={(e) => setFileName(e.target.files?.[0]?.name ?? "")}
+                  onChange={handleFileChange}
                   className="hidden"
                 />
               </label>
+              {fileTooLarge && (
+                <p className="mt-2 text-xs font-medium text-red-600">{t("fileTooLarge")}</p>
+              )}
             </div>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">

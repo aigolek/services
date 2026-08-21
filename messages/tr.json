@@ -81,7 +81,8 @@
     "notaryLabel": "Noter onayı gerekli",
     "apostilleLabel": "Apostil gerekli",
     "fileLabel": "Belgenizi ekleyin",
-    "fileHint": "PDF, DOC, JPG, PNG — 10 MB'a kadar",
+    "fileHint": "PDF, DOC, JPG, PNG — 4 MB'a kadar",
+    "fileTooLarge": "Dosya çok büyük — maksimum 4 MB. Dosyayı sıkıştırın ya da WhatsApp'tan gönderin.",
     "submitButton": "Talebi gönder",
     "submitting": "Gönderiliyor…",
     "successMessage": "Tamamdır! Talebiniz gönderildi, en kısa sürede size dönüş yapacağız.",
@@ -93,6 +94,11 @@
     "yes": "Evet",
     "no": "Hayır",
     "emailSubject": "Tercüme hesaplayıcı talebi — Global Consulting Group"
+  },
+  "gallery": {
+    "label": "Ofisimiz",
+    "title": "Global Consulting'in arkasındaki ekip",
+    "subtitle": "Manavgat'taki ofisimizden gerçek anlar: belgeleri tamamlanmış müşterilerimiz ve çalışan ekibimiz."
   },
   "services": {
     "label": "Hizmetler",
@@ -144,10 +150,39 @@
   "testimonials": {
     "label": "Müşteri Yorumları",
     "title": "Bize güvenen müşterilerimiz ne diyor?",
+    "source": "Google Yorumu",
+    "photoBadge": "Müşteri fotoğraflı",
     "items": [
-      { "quote": "Harika bir işletme, çalışanların hepsi çok değerli, işinin ehli.", "name": "VRL MHMT", "origin": "Google Yorumu" },
-      { "quote": "Profesyonel yaklaşım ve hızlı hizmetten çok memnun kaldım. Tanıdıklarıma tavsiye edeceğim.", "name": "Irina Acar", "origin": "Google Yorumu" },
-      { "quote": "Hızlı ve güvenilir hizmette sınır yok 👍", "name": "İlknur Bayrakcı", "origin": "Google Yorumu" }
+      { "quote": "Tercüme kaliteli ve özenli bir şekilde yapıldı, detaylara gösterilen dikkat hissediliyor. Her şey tam zamanında, hiçbir stres yaşatmadan tamamlandı. Sorumluluk ve profesyonellik için teşekkürler — kesinlikle tekrar geleceğim ve gönül rahatlığıyla tavsiye ediyorum.", "name": "Akbala Karatay" },
+      { "quote": "Türkçe belgelerin Rusçaya çevirisi için büroya başvurdum. Çok hızlı yanıt veriyorlar, belgeler kaliteli ve zamanında çevrildi. Yardımınız ve güler yüzünüz için teşekkür ederim! Kesinlikle tekrar geleceğim.", "name": "Юлия Гиматдинова" },
+      { "quote": "Vize evraklarımız ve çeviri konusunda bize destekleri için Duru Tercüme bürosuna teşekkür ediyorum, fiyatları oldukça makul, güler yüzlü ve samimi tavırları için çok teşekkür ederim.", "name": "Ibrahim Şahin" },
+      { "quote": "Merhaba. Uzun zamandır Oksana ile çalışıyorum. İşinden her zaman memnun kaldım. Hızlı ve pratik şekilde yardımcı oluyor, kendisiyle iletişim kurmak çok kolay. Yardımı ve iş birliği için çok teşekkür ederim.", "name": "Soltanat Alibieva" },
+      { "quote": "İletişim olarak iyi ve hızlı, memnun kaldım.", "name": "Yusuf Güleş" },
+      { "quote": "Çok hızlı ve güler yüzlü hizmetleri var. Herkese teşekkür ediyorum.", "name": "İsa Özdemir" },
+      { "quote": "Fransa'dan geldim ve acil olarak resmi bir tercümeye ihtiyacım vardı. Her şey 2 saatten kısa sürede halledildi — çok hızlı ve etkili. Hiçbir eksik yok, çok teşekkür ederim!", "name": "Selen Dayan" },
+      { "quote": "Manavgat'ta İtalyanca tercümeye ihtiyacımız oldu, bulamadık — meğer büro diğer illerdeki anlaşmalı tercümanlarla çalışıyormuş. Manavgat halkına hızlı ve uygun fiyatlı şekilde yardımcı oldular. Başta Oksana hanım olmak üzere güler yüzlü personele çok teşekkür ederim…", "name": "Yavuz & Mehmet Akif Bayram" },
+      { "quote": "Tam altı yıl boyunca verdiğiniz destek için çok teşekkür etmek istiyorum. Bu süre boyunca oturma izni işlemlerinde, belge tercümelerinde ve çeşitli bürokratik konularda hep yanımda oldunuz. Her zaman destek, profesyonellik ve sorumluluk hissettim. Tüm süreçler sakin, net ve gereksiz strese yer vermeden ilerledi — bu konularda bu çok önemli. Sadece işinizi yapmıyorsunuz, gerçekten yardımcı oluyor ve sonuçla ilgileniyorsunuz. Özellikle ilginiz, hızınız ve en karmaşık konuları bile sade bir dille açıklama isteğiniz için teşekkür ederim. Güvenilirliğiniz ve bunca yıl size tam anlamıyla güvenebildiğim için teşekkürler.", "name": "Анастасия Алферова" },
+      { "quote": "Belge tercümesi, Türkiye turist vizesi ve turist ikamet izni için belge paketi hazırlığında Oksana'ya başvurdum. Profesyonel bir yaklaşımı var: her şey net, doğru ve zamanında yapılıyor. Oksana çok ilgili biri, her zaman yardıma ve doğru çözümü önermeye hazır. Sonuç her zaman beklentileri karşılıyor, hatta bazen aşıyor. Güvenilirlik ve kaliteye önem verenlere gönül rahatlığıyla tavsiye ediyorum.", "name": "Konfetka KotikLubimaya" },
+      { "quote": "İlgi ve alaka çok üst düzeydi. Çok memnun kaldık. Ücretler de çok makul ve işlemler çok hızlı yapılıyor. Gönül rahatlığıyla tercih edebilirsiniz. Oksana hanım da çok nazik. Teşekkür ederiz.", "name": "Spor Psikolojisi" },
+      { "quote": "Hızlı tercüme, uygun fiyat.", "name": "Osamah Mahmood" },
+      { "quote": "Mükemmel hizmet, ilgili personel!", "name": "Роман Заостровский" },
+      { "quote": "Tavsiye ederim — hizmet, tutum ve iş kalitesi en üst düzeyde, her şey açık ve net. Tüm belgeler çok hızlı hazırlandı. Çok teşekkür ederim.", "name": "Andres Antsiferov" },
+      { "quote": "Oksana'ya harika işi, ilgisi ve dürüstlüğü için çok teşekkür ederim. Büronun çalışması takdire şayan.", "name": "Narina" },
+      { "quote": "Belge takibi ve hazırlığındaki yardımınız için çok teşekkür ederim. Bu kadar hızlı ve bu kadar az kaynakla — hem maddi hem de en önemlisi manevi olarak — olacağını hiç düşünmemiştim!", "name": "Дарья Мещерякова" },
+      { "quote": "Personele çok teşekkür etmek istiyoruz! Alanında profesyonel ve gerçekten iyi insanlar! Her başvurumuzda hızlı ve nitelikli yardım aldık. Kesinlikle tavsiye ederiz!", "name": "Евгения Горбачевская" },
+      { "quote": "Eşim için çalışma vizesi çıkarttım, her şey en iyi şekilde yapıldı, sonra aile ikameti konusunda da yardımcı oldular, o da çok iyi geçti. Minimum maliyetle birçok seçenek bulmamıza yardımcı oldular! Oksana'yı tavsiye ederim!", "name": "Eugeny Vizner" },
+      { "quote": "Belgelerimle ilgili yardımınız için büyük bir teşekkür borçluyum. Benim son umudumdunuz — siz olmasaydınız işim ne yöne giderdi bilinmez. İçtenlikle şirketinize refah ve bitmeyen bir minnettar müşteri akışı diliyorum. Saygılarımla, Mariya.", "name": "Mariya Kolesnikova" },
+      { "quote": "Türkiye'de dijital göçebe vizesi konusunda yardım almak için başvurdum. Durum karmaşıktı — üzerimde bir giriş yasağı vardı, bu yüzden tek başıma çözmem neredeyse imkânsızdı. Uzmanlar detaylı bir danışmanlık verdi, tüm seçenekleri açıkladı, belgeleri toplamama yardımcı oldu ve her aşamada yanımda oldular, her zaman ulaşılabilirdiler ve riskler konusunda dürüsttüler. Sonunda vize başarıyla alındı. Zor bir durumda gösterdikleri profesyonel yaklaşım, yetkinlik ve destek için teşekkür ederim. Standart olmayan bir durumunuz varsa çekinmeden başvurun.", "name": "T T" },
+      { "quote": "Çok hızlı bir şekilde işimizi hallettiler. Çok memnun kaldık.", "name": "Tuğba Nur Özen" },
+      { "quote": "Kusursuz işi acilen tamamladığı, durumun zorluğunu anladığı ve verdiği destek için İrina'ya çok teşekkür ederim. Harika bir iş!", "name": "Olga Akar" },
+      { "quote": "Vatandaşlık işlemleri için Global Tercüme bürosuna başvurdum — eksik belgeleri topladılar ve inanılmaz bir iş çıkardılar. Büronun yöneticisi Oksana'nın profesyonelliği sayesinde vatandaşlığımı aldım — o olmasaydı aşılmaz görünen zorlukların üstesinden gelemezdim. Oksana her zaman ulaşılabilir ve çok ilgili.", "name": "RiTa" },
+      { "quote": "Üç yıl önce doğrudan Oksana'ya başvurdum. Çok güvenilir bir büro — evlilik kaydı ve oturma izni için belge paketini toplamama yardımcı oldular (tercümeler, konsolosluktan apostiller, uygun fiyatlı sağlık sigortası buldular, randevu aldılar). Her şey anahtar teslim, sonuca kadar tam destekle ve her konuda danışmanlıkla ilerledi. Daha sonra kızımın vatandaşlığı konusunda büyük zorluklar yaşandı — Oksana bir çözüm buldu ve kızım vatandaşlığını aldı. Gerçek bir profesyonel: hızlı, doğru ve güvenilir. Bundan önce başka iki şirkete gitmiştik — boşuna, hiçbir sonuç alamadan. Şimdi her konuda sadece buraya geliyoruz, her zaman hızlı yardımcı oluyorlar.", "name": "Наталья Эртурк" },
+      { "quote": "Sigortalarımı, tercümelerimi ve belgelerimi sadece burada yaptırıyorum. Dört yıldır her şey sorunsuz gidiyor — bir kere ödüyorsun ve unutuyorsun.", "name": "Stas Kurliandcev", "photo": true },
+      { "quote": "Ben Endonezyalıyım, tercüme yaptırdım ve çok memnun kaldım, hiçbir sorun yaşanmadı. Duru Tercüme'ye çok teşekkür ederim.", "name": "Mehmetefe Darılma", "photo": true },
+      { "quote": "Birkaç belgemin Türkçeye tercümesi için başvurdum. Çok memnun kaldım: her şey kısa sürede yapıldı, sürekli bilgilendirildim, yardımcı ve yol gösterici oldular. Bir belgenin konsoloslukta onaylanması gerekiyordu, süre çok kısıtlıydı ve randevu alamıyordum — ekip bu işi benim için hallettiler. Uyumlu çalışmaları için teşekkür ederim!", "name": "Leysan" },
+      { "quote": "Reşit olmayan oğluma yurt dışı pasaportu çıkarmak için çocuk çıkış izni belgesinin tercümesi gerekiyordu. Oksana'ya başvurdum ve profesyonel yardımı için çok minnettarım. Burada harika, ilgili ve profesyonel insanlar çalışıyor, her zaman seve seve yardımcı oluyorlar. Çekinmeden başvurun, tavsiye ederim!", "name": "Лідія Потапенко" },
+      { "quote": "Doğum belgesi, mahkeme kararı ve pasaport tercümesi yaptırdım. Hizmetten çok memnun kaldım — hızlı ve doğru. Teşekkür ederim!", "name": "Anastasiia Pavlova" },
+      { "quote": "İşten çok memnun kaldım! Belge tercümesi hızlı, kaliteli ve hatasız yapıldı. Personel çok naziktik, her şeyi detaylıca açıkladılar ve işlemlerde yardımcı oldular. Profesyonellikleri sayesinde tüm süreç sakin ve sorunsuz ilerledi. Harika hizmet için çok teşekkür ederim! Kaliteli belge tercümesine ihtiyacı olan herkese tavsiye ederim.", "name": "Diana Marinova" }
     ]
   },
   "contact": {
