@@ -7,7 +7,7 @@ import Image from "next/image";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import Reveal from "./Reveal";
 
-const PHOTO_COUNT = 16;
+const PHOTO_COUNT = 27;
 const PHOTOS = Array.from({ length: PHOTO_COUNT }, (_, i) => {
   const num = String(i + 1).padStart(2, "0");
   const ext = [7, 9].includes(i + 1) ? "jpeg" : "jpg";
