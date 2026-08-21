@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Quote } from "lucide-react";
+import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Reveal from "./Reveal";
@@ -53,6 +53,14 @@ export default function Testimonials() {
     return () => clearInterval(id);
   }, [paused, groups.length]);
 
+  function goPrev() {
+    setGroupIndex((i) => (i - 1 + groups.length) % groups.length);
+  }
+
+  function goNext() {
+    setGroupIndex((i) => (i + 1) % groups.length);
+  }
+
   return (
     <section id="testimonials" className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6">
@@ -70,6 +78,27 @@ export default function Testimonials() {
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
         >
+          {groups.length > 1 && (
+            <>
+              <button
+                type="button"
+                aria-label="Previous reviews"
+                onClick={goPrev}
+                className="absolute left-0 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 rounded-full border border-navy/10 bg-white p-2 text-navy shadow-sm transition-colors hover:border-gold/50 hover:text-gold hover:shadow-md sm:-left-5"
+              >
+                <ChevronLeft size={22} />
+              </button>
+              <button
+                type="button"
+                aria-label="Next reviews"
+                onClick={goNext}
+                className="absolute right-0 top-1/2 z-10 -translate-y-1/2 translate-x-1/2 rounded-full border border-navy/10 bg-white p-2 text-navy shadow-sm transition-colors hover:border-gold/50 hover:text-gold hover:shadow-md sm:-right-5"
+              >
+                <ChevronRight size={22} />
+              </button>
+            </>
+          )}
+
           <AnimatePresence mode="wait">
             <motion.div
               key={groupIndex}
