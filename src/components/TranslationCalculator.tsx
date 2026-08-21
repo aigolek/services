@@ -52,12 +52,6 @@ export default function TranslationCalculator() {
       if (!res.ok) throw new Error("submit failed");
       trackCalculatorSubmit();
       setStatus("success");
-      formRef.current?.reset();
-      setPhone("");
-      setLanguage("");
-      setNotary(false);
-      setApostille(false);
-      setFileName("");
     } catch {
       setStatus("error");
     }
