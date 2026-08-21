@@ -151,7 +151,6 @@
     "label": "Müşteri Yorumları",
     "title": "Bize güvenen müşterilerimiz ne diyor?",
     "source": "Google Yorumu",
-    "photoBadge": "Müşteri fotoğraflı",
     "items": [
       { "quote": "Tercüme kaliteli ve özenli bir şekilde yapıldı, detaylara gösterilen dikkat hissediliyor. Her şey tam zamanında, hiçbir stres yaşatmadan tamamlandı. Sorumluluk ve profesyonellik için teşekkürler — kesinlikle tekrar geleceğim ve gönül rahatlığıyla tavsiye ediyorum.", "name": "Akbala Karatay" },
       { "quote": "Türkçe belgelerin Rusçaya çevirisi için büroya başvurdum. Çok hızlı yanıt veriyorlar, belgeler kaliteli ve zamanında çevrildi. Yardımınız ve güler yüzünüz için teşekkür ederim! Kesinlikle tekrar geleceğim.", "name": "Юлия Гиматдинова" },
@@ -177,8 +176,8 @@
       { "quote": "Kusursuz işi acilen tamamladığı, durumun zorluğunu anladığı ve verdiği destek için İrina'ya çok teşekkür ederim. Harika bir iş!", "name": "Olga Akar" },
       { "quote": "Vatandaşlık işlemleri için Global Tercüme bürosuna başvurdum — eksik belgeleri topladılar ve inanılmaz bir iş çıkardılar. Büronun yöneticisi Oksana'nın profesyonelliği sayesinde vatandaşlığımı aldım — o olmasaydı aşılmaz görünen zorlukların üstesinden gelemezdim. Oksana her zaman ulaşılabilir ve çok ilgili.", "name": "RiTa" },
       { "quote": "Üç yıl önce doğrudan Oksana'ya başvurdum. Çok güvenilir bir büro — evlilik kaydı ve oturma izni için belge paketini toplamama yardımcı oldular (tercümeler, konsolosluktan apostiller, uygun fiyatlı sağlık sigortası buldular, randevu aldılar). Her şey anahtar teslim, sonuca kadar tam destekle ve her konuda danışmanlıkla ilerledi. Daha sonra kızımın vatandaşlığı konusunda büyük zorluklar yaşandı — Oksana bir çözüm buldu ve kızım vatandaşlığını aldı. Gerçek bir profesyonel: hızlı, doğru ve güvenilir. Bundan önce başka iki şirkete gitmiştik — boşuna, hiçbir sonuç alamadan. Şimdi her konuda sadece buraya geliyoruz, her zaman hızlı yardımcı oluyorlar.", "name": "Наталья Эртурк" },
-      { "quote": "Sigortalarımı, tercümelerimi ve belgelerimi sadece burada yaptırıyorum. Dört yıldır her şey sorunsuz gidiyor — bir kere ödüyorsun ve unutuyorsun.", "name": "Stas Kurliandcev", "photo": true },
-      { "quote": "Ben Endonezyalıyım, tercüme yaptırdım ve çok memnun kaldım, hiçbir sorun yaşanmadı. Duru Tercüme'ye çok teşekkür ederim.", "name": "Mehmetefe Darılma", "photo": true },
+      { "quote": "Sigortalarımı, tercümelerimi ve belgelerimi sadece burada yaptırıyorum. Dört yıldır her şey sorunsuz gidiyor — bir kere ödüyorsun ve unutuyorsun.", "name": "Stas Kurliandcev", "avatar": "/reviews/stas-kurliandcev.jpg" },
+      { "quote": "Ben Endonezyalıyım, tercüme yaptırdım ve çok memnun kaldım, hiçbir sorun yaşanmadı. Duru Tercüme'ye çok teşekkür ederim.", "name": "Mehmetefe Darılma", "avatar": "/reviews/mehmetefe-darilma.jpg" },
       { "quote": "Birkaç belgemin Türkçeye tercümesi için başvurdum. Çok memnun kaldım: her şey kısa sürede yapıldı, sürekli bilgilendirildim, yardımcı ve yol gösterici oldular. Bir belgenin konsoloslukta onaylanması gerekiyordu, süre çok kısıtlıydı ve randevu alamıyordum — ekip bu işi benim için hallettiler. Uyumlu çalışmaları için teşekkür ederim!", "name": "Leysan" },
       { "quote": "Reşit olmayan oğluma yurt dışı pasaportu çıkarmak için çocuk çıkış izni belgesinin tercümesi gerekiyordu. Oksana'ya başvurdum ve profesyonel yardımı için çok minnettarım. Burada harika, ilgili ve profesyonel insanlar çalışıyor, her zaman seve seve yardımcı oluyorlar. Çekinmeden başvurun, tavsiye ederim!", "name": "Лідія Потапенко" },
       { "quote": "Doğum belgesi, mahkeme kararı ve pasaport tercümesi yaptırdım. Hizmetten çok memnun kaldım — hızlı ve doğru. Teşekkür ederim!", "name": "Anastasiia Pavlova" },

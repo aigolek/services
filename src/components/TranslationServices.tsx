@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Reveal from "./Reveal";
+import TranslationCalculator from "./TranslationCalculator";
 
 const CATEGORY_ICONS = [Gavel, Wrench, HeartPulse, Briefcase, Code2, IdCard];
 const WHY_US_ICONS = [Layers, Globe2, ShieldCheck, Lock];
@@ -77,6 +78,8 @@ export default function TranslationServices() {
             </div>
           </div>
         </Reveal>
+
+        <TranslationCalculator />
 
         {/* What we translate */}
         <Reveal delay={0.1}>

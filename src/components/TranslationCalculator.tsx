@@ -78,19 +78,15 @@ export default function TranslationCalculator() {
   }
 
   return (
-    <section id="calculator" className="relative overflow-hidden bg-white py-24 sm:py-32">
-      <div className="relative mx-auto max-w-3xl px-6">
-        <Reveal className="max-w-2xl">
-          <span className="text-sm font-semibold uppercase tracking-widest text-gold">
-            {t("label")}
-          </span>
-          <h2 className="mt-4 text-3xl font-semibold text-navy sm:text-4xl text-balance">
-            {t("title")}
-          </h2>
-          <p className="mt-4 text-navy/70">{t("subtitle")}</p>
-        </Reveal>
+    <div id="calculator" className="mx-auto max-w-3xl scroll-mt-24">
+      <Reveal delay={0.1}>
+        <h3 className="mt-16 text-lg font-semibold text-navy sm:text-xl">
+          {t("title")}
+        </h3>
+        <p className="mt-2 text-sm leading-relaxed text-navy/70">{t("subtitle")}</p>
+      </Reveal>
 
-        <Reveal delay={0.1}>
+      <Reveal delay={0.15}>
           <form
             ref={formRef}
             onSubmit={handleSubmit}
@@ -214,8 +210,7 @@ export default function TranslationCalculator() {
             )}
             <p className="mt-4 text-xs text-navy/50">{t("whatsappHint")}</p>
           </form>
-        </Reveal>
-      </div>
-    </section>
+      </Reveal>
+    </div>
   );
 }

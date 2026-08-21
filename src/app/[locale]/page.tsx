@@ -6,7 +6,6 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
-import TranslationCalculator from "@/components/TranslationCalculator";
 import TranslationServices from "@/components/TranslationServices";
 import WhatsAppFab from "@/components/WhatsAppFab";
 
@@ -18,7 +17,6 @@ export default function Home() {
         <Hero />
         <Services />
         <TranslationServices />
-        <TranslationCalculator />
         <Gallery />
         <Testimonials />
         <About />

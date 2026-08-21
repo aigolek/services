@@ -2,20 +2,37 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Camera, Quote } from "lucide-react";
+import { Quote } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import Reveal from "./Reveal";
 
-type Testimonial = { quote: string; name: string; photo?: boolean };
+type Testimonial = { quote: string; name: string; avatar?: string };
 
 const GROUP_SIZE = 3;
 const ROTATE_MS = 7000;
+
+const AVATAR_COLORS = [
+  "bg-navy",
+  "bg-gold",
+  "bg-emerald-600",
+  "bg-rose-500",
+  "bg-sky-600",
+  "bg-violet-600",
+  "bg-amber-600",
+  "bg-teal-600",
+];
+
+function avatarColor(name: string) {
+  let sum = 0;
+  for (const ch of name) sum += ch.charCodeAt(0);
+  return AVATAR_COLORS[sum % AVATAR_COLORS.length];
+}
 
 export default function Testimonials() {
   const t = useTranslations("testimonials");
   const items = t.raw("items") as Testimonial[];
   const source = t("source");
-  const photoBadge = t("photoBadge");
 
   const groups = useMemo(() => {
     const chunks: Testimonial[][] = [];
@@ -62,7 +79,7 @@ export default function Testimonials() {
               transition={{ duration: 0.4, ease: "easeOut" }}
               className="grid gap-6 lg:grid-cols-3"
             >
-              {groups[groupIndex]?.map(({ quote, name, photo }) => (
+              {groups[groupIndex]?.map(({ quote, name, avatar }) => (
                 <div
                   key={name}
                   className="group flex h-full flex-col rounded-2xl border border-navy/10 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-navy/5"
@@ -71,16 +88,25 @@ export default function Testimonials() {
                   <p className="mt-6 flex-1 text-base leading-relaxed text-navy/80">
                     &ldquo;{quote}&rdquo;
                   </p>
-                  <div className="mt-6 border-t border-navy/10 pt-4">
-                    <p className="text-base font-semibold text-navy">{name}</p>
-                    <div className="mt-0.5 flex items-center gap-2 text-sm text-navy/60">
-                      <span>{source}</span>
-                      {photo && (
-                        <span className="inline-flex items-center gap-1 rounded-full bg-gold/10 px-2 py-0.5 text-xs font-medium text-gold">
-                          <Camera size={12} />
-                          {photoBadge}
-                        </span>
-                      )}
+                  <div className="mt-6 flex items-center gap-3 border-t border-navy/10 pt-4">
+                    {avatar ? (
+                      <Image
+                        src={avatar}
+                        alt=""
+                        width={44}
+                        height={44}
+                        className="h-11 w-11 shrink-0 rounded-full object-cover"
+                      />
+                    ) : (
+                      <div
+                        className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-sm font-semibold text-white ${avatarColor(name)}`}
+                      >
+                        {name.trim().charAt(0).toUpperCase()}
+                      </div>
+                    )}
+                    <div>
+                      <p className="text-base font-semibold text-navy">{name}</p>
+                      <p className="text-sm text-navy/60">{source}</p>
                     </div>
                   </div>
                 </div>
