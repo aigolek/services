@@ -198,6 +198,26 @@
     "reviewsManavgat": "Manavgat — Global Tercüme",
     "reviewsAntalya": "Antalya / Manavgat — Duru Tercüme"
   },
+  "cityPage": {
+    "eyebrow": "Türkiye genelinde yeminli tercüme",
+    "title": "Belge Tercümesi — {city}",
+    "intro": "Ofisimiz Manavgat'ta (Antalya) bulunuyor, ancak {city} ve Türkiye genelindeki müşteriler için düzenli olarak belge tercümesi yapıyoruz — ofise gelmenize gerek kalmadan, tamamen uzaktan.",
+    "regionHeading": "Bu bölgedeki müşterilerin en çok ihtiyaç duyduğu hizmetler",
+    "howHeading": "Uzaktan hizmet nasıl işliyor",
+    "how1": "Belgelerinizin taramasını veya fotoğrafını WhatsApp'tan ya da site üzerinden gönderin",
+    "how2": "Size fiyat ve süre teklifi gönderelim",
+    "how3": "Hazır noter onaylı tercümeyi (gerekiyorsa apostil ile) kargo ile {city} adresinize gönderelim",
+    "nearbyHeading": "Bölgedeki yakın şehirler",
+    "ctaText": "WhatsApp'tan yazın — belgelerinizi ve süreyi birlikte konuşalım.",
+    "ctaButton": "WhatsApp'tan Yazın",
+    "backLink": "← Tüm tercüme hizmetleri",
+    "regions": {
+      "marmara": "Marmara Bölgesi, Türkiye'nin en kalabalık ve iş odaklı bölgesidir; büyük şirketler, üniversiteler ve en yoğun göçmen/öğrenci akışı buradadır. Bu bölgeden müşteriler en çok ticari sözleşme, şirket kuruluş belgesi, diploma ve ikamet izni evrakı tercümesine ihtiyaç duyar.",
+      "icAnadolu": "İç Anadolu ve Ankara, bakanlıkların ve büyükelçiliklerin bulunduğu Türkiye'nin yönetim merkezidir. Buradaki müşteriler en çok resmi belge tercümesi, konsolosluk tasdik ve apostil işlemleri ile devlet kurumları için evrak tercümesine ihtiyaç duyar.",
+      "ege": "Ege Bölgesi, yabancı emlak alıcıları arasında popüler bir sahil bölgesidir (Kuşadası, Didim, Bodrum, Fethiye). Buradaki müşteriler en çok tapu ve gayrimenkul satış sözleşmesi tercümesi ile ikamet izni ve evlilik belgelerine ihtiyaç duyar.",
+      "akdeniz": "Akdeniz kıyısı, çok sayıda Rusça konuşan turist ve buraya yerleşmiş kişinin bulunduğu bir tatil bölgesidir. Buradaki müşteriler en çok ikamet izni evrakı, gayrimenkul alım belgeleri, sağlık raporu ve sigorta belgesi tercümesine ihtiyaç duyar."
+    }
+  },
   "footer": {
     "rights": "© {year} Global Consulting Group. Tüm hakları saklıdır."
   }

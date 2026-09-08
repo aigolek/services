@@ -12,7 +12,9 @@ import {
   ShieldCheck,
   Wrench,
 } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
+import { FEATURED_CITIES } from "@/lib/cities";
 import Reveal from "./Reveal";
 import TranslationCalculator from "./TranslationCalculator";
 
@@ -36,6 +38,7 @@ const TURKISH_CITIES = [
 
 export default function TranslationServices() {
   const t = useTranslations("translation");
+  const locale = useLocale();
   const categories = t.raw("categories") as { title: string; description: string }[];
   const whyUs = t.raw("whyUs") as { title: string; description: string }[];
   const steps = t.raw("steps") as { title: string; description: string }[];
@@ -168,15 +171,27 @@ export default function TranslationServices() {
               {t("citiesSubtitle")}
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
-              {TURKISH_CITIES.map((city) => (
-                <a
-                  key={city}
-                  href="#contact"
-                  className="rounded-full border border-navy/10 bg-cream px-3.5 py-1.5 text-sm font-medium text-navy/80 transition-colors hover:border-gold/50 hover:bg-gold/10 hover:text-navy"
-                >
-                  {city}
-                </a>
-              ))}
+              {TURKISH_CITIES.map((city) => {
+                const featured = FEATURED_CITIES.find((c) => c.name === city);
+                const className =
+                  "rounded-full border border-navy/10 bg-cream px-3.5 py-1.5 text-sm font-medium text-navy/80 transition-colors hover:border-gold/50 hover:bg-gold/10 hover:text-navy";
+                if (featured) {
+                  return (
+                    <Link
+                      key={city}
+                      href={`/${locale}/tercume/${featured.slug}`}
+                      className={className}
+                    >
+                      {city}
+                    </Link>
+                  );
+                }
+                return (
+                  <a key={city} href="#contact" className={className}>
+                    {city}
+                  </a>
+                );
+              })}
             </div>
           </div>
         </Reveal>

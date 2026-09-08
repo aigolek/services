@@ -198,6 +198,26 @@
     "reviewsManavgat": "Manavgat — Global Tercüme",
     "reviewsAntalya": "Antalya / Manavgat — Duru Tercüme"
   },
+  "cityPage": {
+    "eyebrow": "Certified translation across Turkey",
+    "title": "Document Translation — {city}",
+    "intro": "Our office is based in Manavgat (Antalya), but we regularly translate documents for clients in {city} and across Turkey — entirely remotely, no office visit required.",
+    "regionHeading": "What clients from this region usually need",
+    "howHeading": "How remote service works",
+    "how1": "Send scans or photos of your documents via WhatsApp or the site",
+    "how2": "We send you a quote for price and turnaround time",
+    "how3": "The finished notarized translation (and apostille if needed) is shipped by courier to your address in {city}",
+    "nearbyHeading": "Nearby cities in the region",
+    "ctaText": "Message us on WhatsApp — let's discuss your documents and timeline.",
+    "ctaButton": "Message on WhatsApp",
+    "backLink": "← All translation services",
+    "regions": {
+      "marmara": "The Marmara region is Turkey's most populous and business-driven area, home to major companies, universities, and the largest flow of migrants and students. Clients here most often need translation of commercial contracts, company incorporation documents, diplomas, and residence permit paperwork.",
+      "icAnadolu": "Central Anatolia and Ankara form Turkey's administrative center, home to ministries and embassies. Clients here most often need official certificate translation, consular legalization and apostille documents, and paperwork for government institutions.",
+      "ege": "The Aegean region is a popular coast for foreign property buyers (Kuşadası, Didim, Bodrum, Fethiye). Clients here most often need translation of title deeds (TAPU) and property sale contracts, as well as residence permit and marriage documents.",
+      "akdeniz": "The Mediterranean coast is a resort region with a large number of Russian-speaking tourists and permanent residents. Clients here most often translate residence permit paperwork, property purchase documents, medical certificates, and insurance papers."
+    }
+  },
   "footer": {
     "rights": "© {year} Global Consulting Group. All rights reserved."
   }

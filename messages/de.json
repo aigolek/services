@@ -198,6 +198,26 @@
     "reviewsManavgat": "Manavgat — Global Tercüme",
     "reviewsAntalya": "Antalya / Manavgat — Duru Tercüme"
   },
+  "cityPage": {
+    "eyebrow": "Beglaubigte Übersetzungen in ganz der Türkei",
+    "title": "Dokumentenübersetzung — {city}",
+    "intro": "Unser Büro befindet sich in Manavgat (Antalya), aber wir übersetzen regelmäßig Dokumente für Kunden in {city} und in der ganzen Türkei — komplett aus der Ferne, ohne Bürobesuch.",
+    "regionHeading": "Was Kunden aus dieser Region am häufigsten brauchen",
+    "howHeading": "So funktioniert die Fernabwicklung",
+    "how1": "Scans oder Fotos Ihrer Dokumente per WhatsApp oder über die Website senden",
+    "how2": "Wir senden Ihnen ein Angebot mit Preis und Bearbeitungszeit",
+    "how3": "Die fertige notariell beglaubigte Übersetzung (und Apostille, falls nötig) senden wir per Kurier an Ihre Adresse in {city}",
+    "nearbyHeading": "Nahegelegene Städte in der Region",
+    "ctaText": "Schreiben Sie uns auf WhatsApp — wir besprechen Ihre Dokumente und den Zeitrahmen.",
+    "ctaButton": "Auf WhatsApp schreiben",
+    "backLink": "← Alle Übersetzungsleistungen",
+    "regions": {
+      "marmara": "Die Region Marmara ist die bevölkerungsreichste und wirtschaftlich aktivste Region der Türkei mit großen Unternehmen, Universitäten und dem größten Zustrom von Migranten und Studierenden. Kunden hier benötigen meist Übersetzungen von Handelsverträgen, Gründungsdokumenten, Diplomen und Aufenthaltstitel-Unterlagen.",
+      "icAnadolu": "Zentralanatolien und Ankara bilden das Verwaltungszentrum der Türkei mit Ministerien und Botschaften. Kunden hier benötigen meist Übersetzungen amtlicher Bescheinigungen, konsularische Legalisation und Apostille sowie Unterlagen für Behörden.",
+      "ege": "Die Ägäisregion ist eine beliebte Küste für ausländische Immobilienkäufer (Kuşadası, Didim, Bodrum, Fethiye). Kunden hier benötigen meist Übersetzungen von Grundbuchdokumenten (TAPU) und Kaufverträgen sowie Aufenthaltstitel- und Heiratsdokumenten.",
+      "akdeniz": "Die Mittelmeerküste ist eine Urlaubsregion mit vielen russischsprachigen Touristen und dauerhaft Ansässigen. Kunden hier übersetzen meist Aufenthaltstitel-Unterlagen, Immobilienkaufdokumente, ärztliche Atteste und Versicherungsunterlagen."
+    }
+  },
   "footer": {
     "rights": "© {year} Global Consulting Group. Alle Rechte vorbehalten."
   }
